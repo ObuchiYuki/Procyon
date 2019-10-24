@@ -1,0 +1,319 @@
+//==============================
+//global
+"error"="Error";
+"secound_[secound]"="$0 seconds";
+"date_[year,month,day]"="$0-$1-$2";
+"other"="Other";
+"confirm"="Confirm";
+"select"="Select";
+"done"="Done";
+"search"="Search";
+"cancel"="Cancel";
+"login_with_[account_name]"="Signed in as $0";
+"recommended"="Recommended";
+"follower_latest"="New from following";
+"account"="Account";
+"loading"="Loading ...";
+"remove?"="Remove?";
+"removed"="Removed";
+"work_[count]"="$0 works";
+"no_illusts"="No illusts";
+"block_[user_name]?"="Block $0?";
+"back_to_home"="Back to home";
+"search_history"="Recent searches";
+"more_search_history"="Show all";
+"back_to_pixiv_home?"="Back to pixiv home?";
+"delete_[work_name]"="Remove $0?";
+"id_[id]_illust_is_showing" = "ID: $0 illust is showing.";
+//==============================
+//account_menu
+"view_history"="History";
+"submitted_work"="My Works";
+"submitted_illust"="My illusts";
+"submitted_novel"="My novels";
+//==============================
+//history
+"remove_all_history?"="Remove all histories?";
+"long_press_to_remove_each"="Long press to remove each";
+"remove_from_view_history?"="Remove from History";
+//==============================
+//image_sction
+"image_descriptions_[total_view,total_bookmarks,created_date]"="$0 views $1 bookmarks $2";
+"tag_(long_press_to_dict)"="Tags (Long tap to show dict)";
+"releted_illusts"="Related illusts";
+"no_releted_illust"="No related illusts";
+"releted_illsts_of_[work_title]"="Related illusts of $0";
+"view_all"="View all";
+"comment"="Comments";
+"comments_view"="Comments view";
+"comments_of_[title]"="Comments of $0";
+"no_comments"="No comments";
+"tag_bookmark" = "Tag Bookmark";
+//==============================
+//image_menu
+"share"="Share";
+"copy_link"="Copy link";
+"open_in_safari"="Open in safari";
+"copied"="Copied";
+"save_all_illust"="Save all images";
+"save_as_pdf"="Save as PDf";
+"send_report"="Report";
+"report_[work_title]?"="Report $0？";
+"reported"="Reported";
+"open_in_pixiv_dic"="Open in Pixiv Dictionary";
+"open_in_nico_dic"="Open in Nico Dictionary";
+"make_hide_tag"="Edit blocked tags";
+"[tag_name]_hided"="$0 was made to be hidden tag";
+//==============================
+//bookmark
+"bookmark"="Bookmarks";
+"bookmarked"="Bookmarked";
+"privete_bookmark"="Private bookmark";
+"private_bookmarked"="Private bookmarked";
+"remove_bookmark"="Unbookmark";
+"bookmark_removede"="Unbookmarked";
+//==============================
+//follow
+"remove_follow"="Remove";
+"follow"="Follow";
+"follow_[user_name]"="Follow $0";
+"followed"="Followed";
+"follow_private_[user_name]"="Private follow $0";
+"private_followed"="Private followed";
+"remove_follow_[user_name]"="unFollow $0";
+"unfollowed" = "unFollowed";
+//==============================
+//image_page_menu
+"save_image"="Save image";
+"image_saved"="Saved";
+"save_to_cameraroll?"="Save to camera roll?";
+"image_has_not_been_downloaded"="Image has not been downloaded!";
+//==============================
+//illust_search_setting
+"illust_search_setting"="Search options";
+"search_target"="Target";
+"title_and_caption"="Title caption";
+"partial_match_for_tags"="Tag Total";
+"exact_match_for_tags"="Tag partial";
+"search_sort ()"="Sort By(Regular members can also use Popular)";
+"date_desc"="New";
+"date_asc"="Old";
+"popular_desc"="Popular";
+"duration"="Upload Date";
+"all_duration"="Anytime";
+"within_last_day"="Today";
+"within_last_week"="This week";
+"within_last_month"="This month";
+//==============================
+//novel_search_setting
+"novel_search_setting"="Search options";
+"text"="Text";
+"keyword"="Keyword";
+"search_sort"="Sort By";
+//==============================
+//novel_menu
+"copy_novel"="Copy novel text";
+"open_in_externally"="More";
+"no_series"="No series";
+"no_novels"="No novels";
+"disply_setting"="Disply settings";
+"bookshelf"="Bookshelf";
+//==============================
+//user_menu
+"no_users"="No users";
+"follow_users"="Following users";
+"illusts_of_[user_name]"="Submitted illusts";
+"bookmark_by_[user_name]"="Bookmarks";
+"novels_of_[user_name]"="Submitted novels";
+"details_of_[user_name]"="About";
+"birth_format"="'Born on 'yyyy'/'mm'/'dd";
+"age_[age]"="$0 years old";
+//==============================
+//album
+"album"="Album";
+"add_to_album"="Add to album";
+"create_new_album"="Create new album";
+"album_name"="album name";
+"enter_album_name"="Enter album name";
+"added_to_[album_title]"="Added to $0";
+"delete_alubm"="Remove album";
+"change_album_name"="Change album name";
+"slide_duration"="Slide duration";
+"change_slide_duration"="Change slide duration";
+"enter_duration"="Enter secound";
+"duration_was_setted_to_[second]"="Duration was setted to $0";
+"enter_album_name"="Enter album name";
+"purchase_album?"="Purchase album function？";
+"purchase_album"="Purchase";
+"album_description"="You can organize works with albums";
+"purchase"="Purchase";
+"purchase_was_succeeded"="Purchase was succeeded";
+"purchase_was_failed"="Purchase was failed";
+"restore_was_succeeded"="Restore was succeeded";
+"restore_was_failed"="Restore was failed";
+//==============================
+//ranking
+"select_ranking_search_type"="Select ranking type";
+"ranking_daily"="Daily";
+"ranking_weekly"="Weekly";
+"ranking_monthly"="Monthly";
+"ranking_for_man"="Man";
+"ranking_for_woman"="Woman";
+"ranking_original"="Original";
+"ranking_rookie"="Rookie";
+"ranking_old"="Past";
+"ranking_r18_daily"="R18 Daily";
+"ranking_r18_weekly"="R18 Weekly";
+"ranking_r18_for_man"="R18 Man";
+"ranking_r18_for_woman"="R18 Woman";
+"ranking_of_[type]"="Ranking of $0";
+//============================================================
+//setting
+"setting"="Settings";
+//==============================
+//general
+"general_setting"="General";
+"security"="Safety";
+"enable_passcode"="Turn passcode on";
+"system"="Others";
+"remove_cache"="Clear cache";
+"removing"="Clearing..";
+"enable_vibration"="Turn vibration on";
+"enable_auto_sleep"="Turn auto sleep on";
+"support"="Support";
+"information"="Informations";
+"contact_us"="Contact me";
+"premium"="Premium";
+"restore"="Restore purchase";
+//==============================
+//pixiv
+"dont_show_r18"="do not show R18 works";
+"dont_show_r18_on_cellular"="do not show R18 on cellular";
+"block_tag"="Blocked tags";
+"block_user"="Blocked users";
+"pixiv_account_setting"="Pixiv account settings";
+"resister_pixiv_premium"="Pixiv premium service";
+"hidden_tags"="Block tags";
+"you_can_not_add_blank_tag"="You can not add blank tag.";
+"this_tag_has_been_added_already"="This tag is already added.";
+"contain_tag_name"="include contains this";
+"tag_contains_[name]"="and include tags";
+"hidden_user"="Block user";
+"user_name"="User name";
+//==============================
+//novel
+"mincho"="Mincho";
+"gothic"="Gothic";
+"white_theme"="";
+"worm_theme"="";
+"gray_theme"="";
+"black_theme"="";
+//==============================
+//account
+"account"="Account";
+"account_setting"="Account settings";
+"user_setting"="User settings";
+"change_account"="Swich account";
+"change_mail_address"="Change mail address";
+"change_password"="Change password";
+"make_this_account_default"="Automatically log in this account.";
+"remove_this_account"="Log out";
+"mail"="Mail";
+"password"="Password";
+"account_remove_alert"="Are you sure you want to log out of pixiv?";
+"default_account_description"="Make this account default?";
+"no_account"="No accounts";
+//============================================================
+//other
+"mail_or_password_error"="Wrong email address or password.";
+"unknown_error"="Unknown error";
+"dic_no_page_error"="An article of this title has not been created yet.";
+"logging_in"="Logging in...";
+"guide_line"="Guidelines";
+"agree"="Agree";
+"disagree"="Disagree";
+"enter_pixiv_id"="Enter PixivID";
+"enter_password"="Enter password";
+"register_to_pixiv_premium?"="Register for pixiv premium";
+"pixiv_premium_discription"="Register for pixiv premium to find popular works from your favorite genres with ease!";
+"register"="Register";
+
+"downloading_[item_name]"="Downloading $0";
+"saveing_[item_name]"="Saveing $0";
+"[item_name]_will_be_save_next"="$0 will be saved next.";
+"converting_to_pdf"="Converting to PDF";
+
+
+"edit_account"="Edit accounts";
+"add_account" = "Add an account";
+"login_with_created_account" = "Login with pixiv account";
+"create_new_account" = "Create a new account";
+
+"nickname" = "Nickname";
+"enter_nickname" = "Enter nickname";
+
+"creating_account" = "Creating account...";
+"account_[name]_created" = "Account $0 was created.";
+
+"no_connection" = "No connection";
+
+"illust"="Illusts";
+"novel"="Novels";
+"private_illust"="Private illusts";
+"private_novel"="Private novels";
+
+
+"please_share_procyon" = "Please share Procyon!";
+"share_procyon_description" = "";
+"share_procyon_text" = "https://appsto.re/jp/2wvNdb.i";
+
+"never_show_again" = "Never show again";
+
+"tag_bookmarked" = "Tag bookmarked.";
+
+
+"bookmark_this" = "Bookmark";
+"private_bookmark_this" = "Private bookmark";
+"add_tag" = "Add tag";
+"tag" = "Tag";
+"tag_cannot_be_blank" = "Tag cannot be blank";
+
+"login_error" = "Login Error";
+
+"edit"="EDIT";
+"add"="ADD";
+"remove"="Remove";
+"and_contains"="+ contains";
+"enter_hide_tag"="Enter hide tag";
+"nothing_is_selected"="Nothing is selected";
+
+"enter_user_id"="Enter user ID";
+
+"make_this_user_hide?" = "Block this user?";
+"make_this_user_block" = "Block this user";
+
+"opne_url" = "Open URL";
+"enter_url"="Enter URL";
+
+"my_follower"="Followers";
+"use_light_mode"="Turn on lightweight mode";
+//=================================================================
+//First
+"welcome_to_procyon" = "Welcome to Procyon!";
+"these_accounts_are_converted"="These accounts were converted";
+"login" = "Login";
+"nickname_cannot_be_blank" = "Nickname cannot be blank.";
+
+
+
+
+
+
+
+
+
+
+
+
+
+

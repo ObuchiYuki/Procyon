@@ -1,0 +1,10 @@
+framework module HTML {
+  umbrella header "HTML.h"
+
+  export *
+  module * { export * }
+}
+
+module HTML.Swift {
+    header "HTML-Swift.h"
+}

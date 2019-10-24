@@ -1,0 +1,310 @@
+//==============================
+//global
+"error"="오류";
+"secound_[secound]"="$0초";
+"date_[year,month,day]"="$0-$1-$2";
+"other"="기타";
+"confirm"="확인";
+"select"="선택";
+"done"="완료";
+"search"="검색";
+"cancel"="취소";
+"login_with_[account_name]"="$0 에 로그인했습니다.";
+"recommended"="당신에게 추천";
+"follower_latest"="팔로우 신규";
+"account"="계정";
+"loading"="로드 중 ...";
+"remove?"="삭제하겠습니까?";
+"removed"="삭제했습니다.";
+"work_[count]"="$0 개의 작품";
+"no_illusts"="일러스트가 없습니다";
+"block_[user_name]?"="$0 차단?";
+"back_to_home"="홈으로 돌아가기";
+"search_history"="검색 기록";
+"more_search_history"="검색 이력을 더 본다";
+"back_to_pixiv_home?"="Pixiv의 메인 화면에 돌아가겠습니까?";
+"delete_[work_name]"="$0을 삭제?";
+//==============================
+//account_menu
+"view_history"="검색 기록";
+"submitted_work"="투고 한 작품";
+"submitted_illust"="올린 일러스트";
+"submitted_novel"="올린 소설";
+//==============================
+//history
+"remove_all_history?"="전체 기록을 삭제?";
+"long_press_to_remove_each"="길게 눌러 하나씩 삭제할 수 있습니다.";
+"remove_from_view_history?"="[검색 기록] 에서 삭제";
+//==============================
+//image_sction
+"image_descriptions_[total_view,total_bookmarks,created_date]"="조회: $0 즐겨찾기: $1 작성: $2";
+"tag_(long_press_to_dict)"="태그 (길게 눌러서 백과 사전)";
+"releted_illusts"="관련 일러스트";
+"no_releted_illust"="관련 일러스트는 없습니다";
+"releted_illsts_of_[work_title]"="$0 관련 일러스트";
+"view_all"="모두보기";
+"comment"="코멘트";
+"comments_view"="코멘트 더보기";
+"comments_of_[title]"="$0 의 코멘트";
+"no_comments"="코멘트가 없습니다";
+//==============================
+//image_menu
+"share"="공유";
+"copy_link"="링크를 복사";
+"open_in_safari"="Safari에서 열기";
+"copied"="복사했습니다.";
+"save_all_illust"="모든 이미지를 저장";
+"save_as_pdf"="PDF로 저장";
+"send_report"="신고";
+"report_[work_title]?"="$0을 신고하시겠습니까?";
+"reported"="신고했습니다.";
+"open_in_pixiv_dic"="Pixiv 백과에서 열기";
+"open_in_nico_dic"="니코니코 대백과에서 열기";
+"make_hide_tag"="태그를 숨기기";
+"[tag_name]_hided"="$0을 숨기기로 했습니다.";
+//==============================
+//bookmark
+"bookmark"="북마크";
+"bookmarked"="북마크했습니다.";
+"privete_bookmark"="비공개 북마크";
+"private_bookmarked"="비공개 북마크했습니다.";
+"remove_bookmark"="북마크 해제";
+"bookmark_removede"="해제했습니다.";
+//==============================
+//follow
+"remove_follow"="해제";
+"follow"="팔로우";
+"follow_[user_name]"="$0을 팔로우";
+"followed"="팔로우했습니다.";
+"follow_private_[user_name]"="$0을 비공개 팔로우";
+"private_followed"="비공개 팔로우했습니다.";
+"remove_follow_[user_name]"="$0을 팔로우 해제";
+"unfollowed" = "unFollowed";
+//==============================
+//image_page_menu
+"save_image"="저장한다";
+"image_saved"="저장했습니다.";
+"save_to_cameraroll?"="카메라 롤에 저장?";
+"image_has_not_been_downloaded"="이미지로드가 완료되지 않습니다.";
+//==============================
+//illust_search_setting
+"illust_search_setting"="일러스트의 검색 설정";
+"search_target"="검색 방법";
+"title_and_caption"="제목, 캡션";
+"partial_match_for_tags"="태그 부분 일치";
+"exact_match_for_tags"="태그 일치";
+"search_sort ()"="정렬 순서 (일반 회원도 인기순 가능)";
+"date_desc"="최신 순";
+"date_asc"="오래된 순";
+"popular_desc"="인기순";
+"duration"="검색 기간";
+"all_duration"="전체 기간";
+"within_last_day"="오늘";
+"within_last_week"="이번 주";
+"within_last_month"="이번 달";
+//==============================
+//novel_search_setting
+"novel_search_setting"="소설의 검색 설정";
+"text"="텍스트";
+"keyword"="키워드";
+"search_sort"="순서";
+//==============================
+//novel_menu
+"copy_novel"="소설을 복사";
+"open_in_externally"="외부에서 열기";
+"no_series"="시리즈가 없습니다";
+"no_novels"="소설이 아닙니다";
+"disply_setting"="표시 설정";
+"bookshelf"="책장";
+//==============================
+//user_menu
+"no_users"="유저가 없습니다.";
+"follow_users"="팔로우 유저";
+"illusts_of_[user_name]"="$0의 일러스트";
+"bookmark_by_[user_name]"="$0의 북마크";
+"novels_of_[user_name]"="$0의 소설";
+"details_of_[user_name]"="$0에 대한 상세";
+"birth_format"="yyyy'년'mm'월'dd'일'";
+"age_[age]"="$0세";
+//==============================
+//album
+"album"="앨범";
+"add_to_album"="앨범에 추가";
+"create_new_album"="새 앨범";
+"album_name"="앨범 이름";
+"enter_album_name"="앨범 이름을 입력";
+"added_to_[album_title]"="$0에 추가했습니다.";
+"delete_alubm"="앨범을 삭제";
+"change_album_name"="앨범 이름 변경";
+"slide_duration"="슬라이드의 시간";
+"change_slide_duration"="슬라이드의 시간을 변경";
+"enter_duration"="시간을 입력";
+"duration_was_setted_to_[second]"="$0 초로 설정했습니다.";
+"enter_album_name"="앨범 이름을 입력하십시오";
+"purchase_album?"="앨범 기능을 구입?";
+"purchase_album"="앨범 기능을 구입";
+"album_description"="앨범 기능을 사용하면 작품을 분류하고 저장할 수 있습니다.";
+"purchase"="구매";
+"purchase_was_succeeded"="구매 처리가 정상적으로 성공했습니다.";
+"purchase_was_failed"="구매 처리가 실패했습니다.";
+"restore_was_succeeded"="복원 처리가 정상적으로 성공했습니다.";
+"restore_was_failed"="복원 처리가 실패했습니다.";
+//==============================
+//ranking
+"select_ranking_search_type"="조건을 선택하십시오";
+"ranking_daily"="일일";
+"ranking_weekly"="주간";
+"ranking_monthly"="월간";
+"ranking_for_man"="남성에게 인기";
+"ranking_for_woman"="여성에게 인기";
+"ranking_original"="오리지널";
+"ranking_rookie"="신인";
+"ranking_old"="과거";
+"ranking_r18_daily"="R-18 일일";
+"ranking_r18_weekly"="R-18 주간";
+"ranking_r18_for_man"="R-18 남성에게 인기";
+"ranking_r18_for_woman"="R-18 여성에게 인기";
+"ranking_of_[type]"="$0의 랭킹";
+//============================================================
+//setting
+"setting"="설정";
+//==============================
+//general
+"general_setting"="일반";
+"security"="보안";
+"enable_passcode"="암호를 설정";
+"system"="시스템";
+"remove_cache"="캐시 삭제";
+"removing"="삭제하고 있습니다 ...";
+"enable_vibration"="흔들어서 피드백 활성화";
+"enable_auto_sleep"="자동 절전 설정";
+"support"="지원";
+"information"="정보";
+"contact_us"="문의";
+"premium"="프리미엄";
+"restore"="복원";
+//==============================
+//pixiv
+"dont_show_r18"="R-18 작품을 표시하지 않음";
+"dont_show_r18_on_cellular"="모바일 통신 시 R-18 숨기기";
+"block_tag"="지정된 태그를 차단";
+"block_user"="지정된 사용자를 차단";
+"pixiv_account_setting"="Pixiv 계정 설정";
+"resister_pixiv_premium"="Pixiv 프리미엄에 등록";
+"hidden_tags"="숨겨진 태그";
+"you_can_not_add_blank_tag"=" 빈 태그 이름을 추가 할 수 없습니다.";
+"this_tag_has_been_added_already"="이미 등록되어 있습니다.";
+"contain_tag_name"="태그 이름에 포함";
+"tag_contains_[name]"="을 포함 태그";
+"hidden_user"="숨긴 유저";
+"user_name"="유저 이름";
+//==============================
+//novel
+"mincho"="명조체";
+"gothic"="고딕체";
+"white_theme"="흰색";
+"worm_theme"="베이지색";
+"gray_theme"="회색";
+"black_theme"="검은색";
+//==============================
+//account
+"account"="계정";
+"account_setting"="계정 설정";
+"user_setting"="유저 설정";
+"change_account"="계정을 전환";
+"change_mail_address"="이메일 주소를 변경";
+"change_password"="암호 변경";
+"make_this_account_default"="기본으로한다.";
+"remove_this_account"="계정 삭제";
+"mail"="이메일";
+"password"="비밀번호";
+"account_remove_alert"="이 계정을 삭제 하시겠습니까?";
+"no_account"="계정이 없습니다.";
+//============================================================
+//other
+"mail_or_password_error"="이메일 주소 또는 비밀번호가 다릅니다.";
+"unknown_error"="알 수 없는 오류";
+"dic_no_page_error"="이 제목의 기사가 아직 생성되지 않습니다.";
+"logining.."="로그인 중입니다.";
+"guide_line"="지침";
+"agree"="동의";
+"disagree"="동의하지 않음";
+"enter_pixiv_id"="PixivID를 입력";
+"enter_password"="비밀번호를 입력";
+"register_to_pixiv_premium?"="Pixiv의 프리미엄에 등록 하시겠습니까?";
+"pixiv_premium_discription"="Pixiv의 프리미엄에 등록 하시겠습니까? \n 인기순 검색이 완전히 해제됩니다.";
+"register"="등록";
+
+"downloading_[item_name]"="$0을 다운로드 중...";
+"saveing_[item_name]"="$0 저장 중...";
+"[item_name]_will_be_save_next"="$0は次に保存されます。";
+"converting_to_pdf"="PDF로 변환 중 ...";
+
+"edit_account"="계정 수정";
+"add_account" = "계정을 추가";
+"login_with_created_account" = "pixiv 계정으로 로그인";
+"create_new_account" = "새 계정을 만들";
+
+"nickname" = "별명";
+"enter_nickname" = "닉네임 입력";
+
+"creating_account" = "계정 생성 중 ...";
+"account_[name]_created" = "계정 $0 가 만들어졌습니다.";
+
+"no_connection" = "연결 없음";
+
+"illust"="일러스트로";
+"novel"="소설로";
+"private_illust"="비공개로";
+"private_novel"="비공개 소설로";
+
+"please_share_procyon" = "Procyon을 공유하십시오!";
+"share_procyon_description" = "";
+"share_procyon_text" = "https://appsto.re/jp/2wvNdb.i";
+
+"never_show_again" = "다시 표시하지 않음";
+
+"tag_bookmarked" = "태그 북마크했습니다.";
+
+
+"bookmark_this" = "북마크";
+"private_bookmark_this" = "비공개　북마크";
+"add_tag" = "태그 추가";
+"tag" = "태그";
+"tag_cannot_be_blank" = "태그는 비워 둘 수 없습니다.";
+
+"login_error" = "로그인 오류";
+
+"edit"="EDIT";
+"add"="ADD";
+"remove"="삭제";
+"and_contains"="+ 포함하는 것";
+"enter_hide_tag"="숨기기 태그 입력";
+"nothing_is_selected"="아무것도 선택되지 않았습니다.";
+
+"enter_user_id"="사용자 ID 입력";
+
+"make_this_user_hide?" = "이 사용자 차단?";
+"make_this_user_block" = "이 사용자 차단";
+
+"opne_url" = "URL 열기";
+"enter_url"="Enter URL";
+
+"my_follower"="추종자";
+"use_light_mode"="경량 모드 켜기";
+"tag_bookmark"="Tag Bookmark";
+//=================================================================
+//First
+"welcome_to_procyon" = "Procyon에 오신 것을 환영합니다!";
+"these_accounts_are_converted"="이 계정은 변환됩니다.";
+"login" = "로그인";
+"nickname_cannot_be_blank" = "닉네임은 비워 둘 수 없습니다.";
+
+
+
+
+
+
+
+
+

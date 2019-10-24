@@ -1,0 +1,1590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2000ED41E1884F0008B33DF /* PixivNovelThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000ED31E1884F0008B33DF /* PixivNovelThumbnailCell.swift */; };
+		B2000ED61E18853B008B33DF /* ADIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000ED51E18853B008B33DF /* ADIconLabel.swift */; };
+		B202E4501E1A610F00E5030E /* PixivNovelImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202E44F1E1A610F00E5030E /* PixivNovelImageViewController.swift */; };
+		B202E4521E1A61C700E5030E /* PixivNovelInternalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202E4511E1A61C700E5030E /* PixivNovelInternalAPI.swift */; };
+		B202E4551E1A632400E5030E /* PixivNovelImagePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202E4541E1A632400E5030E /* PixivNovelImagePageViewController.swift */; };
+		B202E4571E1A639000E5030E /* PixivNovelImagePageCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202E4561E1A639000E5030E /* PixivNovelImagePageCellViewController.swift */; };
+		B202E45B1E1A67BC00E5030E /* PixivNovelInners.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202E45A1E1A67BC00E5030E /* PixivNovelInners.swift */; };
+		B2072EB01E17F7B300BE75C3 /* PixivOtherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2072EAF1E17F7B300BE75C3 /* PixivOtherData.swift */; };
+		B20D151B1E3F33C200A63909 /* HTML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B269BA211E0A375D00EFACDD /* HTML.framework */; };
+		B20D151C1E3F33CD00A63909 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B271B21D1E2BB481004220CB /* StoreKit.framework */; };
+		B2154FEE1E177D2C00AD8DC8 /* RMDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2154FED1E177D2C00AD8DC8 /* RMDate.swift */; };
+		B219C9B31DFCD9D2004C5EDA /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219C9B21DFCD9D2004C5EDA /* System.swift */; };
+		B21E3E6B1E1E125D00A78628 /* RMURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E3E6A1E1E125D00A78628 /* RMURL.swift */; };
+		B22A3A801E0EA0D3007B4D7C /* PixivImageMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22A3A7F1E0EA0D3007B4D7C /* PixivImageMenuView.swift */; };
+		B22A3A821E0EB2EB007B4D7C /* PixivCommentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22A3A811E0EB2EB007B4D7C /* PixivCommentViewCell.swift */; };
+		B234C1EC1E1F2D4A00C8942B /* PixivHeaderButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B234C1EB1E1F2D4A00C8942B /* PixivHeaderButtonsView.swift */; };
+		B2366A121E0EC4090007ABD4 /* PixivHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366A111E0EC4090007ABD4 /* PixivHeaderView.swift */; };
+		B2366A141E0EC7440007ABD4 /* PixivButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366A131E0EC7440007ABD4 /* PixivButtonCell.swift */; };
+		B2366A171E0F780B0007ABD4 /* PixivImagePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366A161E0F780B0007ABD4 /* PixivImagePageViewController.swift */; };
+		B2366A191E0F787E0007ABD4 /* PixivImagePageCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366A181E0F787E0007ABD4 /* PixivImagePageCellViewController.swift */; };
+		B2366A1B1E0FAC820007ABD4 /* PixivPageViewBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2366A1A1E0FAC820007ABD4 /* PixivPageViewBaseController.swift */; };
+		B24018B81E7E0FC000854DC0 /* ADDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24018B71E7E0FC000854DC0 /* ADDrawerController.swift */; };
+		B24018BA1E7E10F000854DC0 /* PixivDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24018B91E7E10F000854DC0 /* PixivDrawerViewController.swift */; };
+		B24D1B691E1712C900F911FF /* PixivRelatedWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D1B681E1712C900F911FF /* PixivRelatedWorksViewController.swift */; };
+		B24D1B6D1E17154300F911FF /* PixivSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D1B6C1E17154300F911FF /* PixivSearchViewController.swift */; };
+		B24D1B6F1E17161C00F911FF /* PixivSearchInner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D1B6E1E17161C00F911FF /* PixivSearchInner.swift */; };
+		B24D1B711E17231900F911FF /* PixivSearchSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D1B701E17231900F911FF /* PixivSearchSettingViewController.swift */; };
+		B24DB9F01E17B4FA00CC1087 /* PixivNovelMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24DB9EF1E17B4FA00CC1087 /* PixivNovelMainViewController.swift */; };
+		B24DB9F31E17B56B00CC1087 /* PixivNovelCollectionViewBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24DB9F21E17B56B00CC1087 /* PixivNovelCollectionViewBaseController.swift */; };
+		B24DB9F51E17B5A000CC1087 /* PixivNovelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24DB9F41E17B5A000CC1087 /* PixivNovelData.swift */; };
+		B2521BAF1DFCD49B00C7978F /* ADColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B391DFCD49B00C7978F /* ADColor.swift */; };
+		B2521BB01DFCD49B00C7978F /* ADConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B3A1DFCD49B00C7978F /* ADConfig.swift */; };
+		B2521BB11DFCD49B00C7978F /* ADActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B3C1DFCD49B00C7978F /* ADActivityIndicator.swift */; };
+		B2521BB21DFCD49B00C7978F /* ADDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B3D1DFCD49B00C7978F /* ADDialog.swift */; };
+		B2521BB31DFCD49B00C7978F /* ADButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B3E1DFCD49B00C7978F /* ADButton.swift */; };
+		B2521BB41DFCD49B00C7978F /* ADHomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B3F1DFCD49B00C7978F /* ADHomeButton.swift */; };
+		B2521BB51DFCD49B00C7978F /* ADMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B401DFCD49B00C7978F /* ADMainButton.swift */; };
+		B2521BB61DFCD49B00C7978F /* ADMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B411DFCD49B00C7978F /* ADMenu.swift */; };
+		B2521BB71DFCD49B00C7978F /* ADNoProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B421DFCD49B00C7978F /* ADNoProfile.swift */; };
+		B2521BB81DFCD49B00C7978F /* ADPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B431DFCD49B00C7978F /* ADPageViewController.swift */; };
+		B2521BB91DFCD49B00C7978F /* ADRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B441DFCD49B00C7978F /* ADRefreshControl.swift */; };
+		B2521BBA1DFCD49B00C7978F /* ADSearchEstimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B451DFCD49B00C7978F /* ADSearchEstimatedView.swift */; };
+		B2521BBB1DFCD49B00C7978F /* ADSetPassMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2521B461DFCD49B00C7978F /* ADSetPassMain.storyboard */; };
+		B2521BBC1DFCD49B00C7978F /* ADSetPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B471DFCD49B00C7978F /* ADSetPassViewController.swift */; };
+		B2521BBD1DFCD49B00C7978F /* ADSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B481DFCD49B00C7978F /* ADSlider.swift */; };
+		B2521BBE1DFCD49B00C7978F /* ADSnackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B491DFCD49B00C7978F /* ADSnackbar.swift */; };
+		B2521BBF1DFCD49B00C7978F /* ADSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B4A1DFCD49B00C7978F /* ADSwitch.swift */; };
+		B2521BC01DFCD49B00C7978F /* ADTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B4B1DFCD49B00C7978F /* ADTextField.swift */; };
+		B2521BC11DFCD49B00C7978F /* ADTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B4C1DFCD49B00C7978F /* ADTip.swift */; };
+		B2521BC21DFCD49B00C7978F /* ADWaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B4D1DFCD49B00C7978F /* ADWaitView.swift */; };
+		B2521BC31DFCD49B00C7978F /* ADCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B4F1DFCD49B00C7978F /* ADCardView.swift */; };
+		B2521BC41DFCD49B00C7978F /* ADCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B501DFCD49B00C7978F /* ADCollectionViewCell.swift */; };
+		B2521BC51DFCD49B00C7978F /* ADImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B511DFCD49B00C7978F /* ADImageView.swift */; };
+		B2521BC61DFCD49B00C7978F /* ADLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B521DFCD49B00C7978F /* ADLayer.swift */; };
+		B2521BC71DFCD49B00C7978F /* ADTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B531DFCD49B00C7978F /* ADTableViewCell.swift */; };
+		B2521BC81DFCD49B00C7978F /* ADHorizontalMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B551DFCD49B00C7978F /* ADHorizontalMenu.swift */; };
+		B2521BC91DFCD49B00C7978F /* ADNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B561DFCD49B00C7978F /* ADNavigationViewController.swift */; };
+		B2521BCA1DFCD49B00C7978F /* ADSettingViewBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B571DFCD49B00C7978F /* ADSettingViewBaseController.swift */; };
+		B2521BCB1DFCD49B00C7978F /* ADTableViewBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B581DFCD49B00C7978F /* ADTableViewBaseController.swift */; };
+		B2521BCC1DFCD49B00C7978F /* ADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521B591DFCD49B00C7978F /* ADViewController.swift */; };
+		B2521C6F1DFCD50100C7978F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2521BFE1DFCD50100C7978F /* Assets.xcassets */; };
+		B2521C701DFCD50100C7978F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2521BFF1DFCD50100C7978F /* Launch Screen.storyboard */; };
+		B2521C7D1DFCD50100C7978F /* PixivAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C141DFCD50100C7978F /* PixivAPI.swift */; };
+		B2521C7E1DFCD50100C7978F /* PIxivNovelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C151DFCD50100C7978F /* PIxivNovelAPI.swift */; };
+		B2521C7F1DFCD50100C7978F /* PixivPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C161DFCD50100C7978F /* PixivPost.swift */; };
+		B2521C801DFCD50100C7978F /* PixivSaveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C171DFCD50100C7978F /* PixivSaveManager.swift */; };
+		B2521C811DFCD50100C7978F /* PixivSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C181DFCD50100C7978F /* PixivSystem.swift */; };
+		B2521C831DFCD50100C7978F /* PixivAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C1B1DFCD50100C7978F /* PixivAccountView.swift */; };
+		B2521C851DFCD50100C7978F /* PixivFollowUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C1D1DFCD50100C7978F /* PixivFollowUserView.swift */; };
+		B2521C861DFCD50100C7978F /* PixivExtraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C1E1DFCD50100C7978F /* PixivExtraView.swift */; };
+		B2521C891DFCD50100C7978F /* PixiVisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C211DFCD50100C7978F /* PixiVisionView.swift */; };
+		B2521C8D1DFCD50100C7978F /* PixivUgoiraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C251DFCD50100C7978F /* PixivUgoiraView.swift */; };
+		B2521C921DFCD50100C7978F /* PixivWebViewBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C2D1DFCD50100C7978F /* PixivWebViewBaseController.swift */; };
+		B2521CBB1DFCD50100C7978F /* PixivSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C5B1DFCD50100C7978F /* PixivSettingViewController.swift */; };
+		B2521CBC1DFCD50100C7978F /* PixivTagOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C5C1DFCD50100C7978F /* PixivTagOffViewController.swift */; };
+		B2521CBE1DFCD50100C7978F /* PixivUserOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C5E1DFCD50100C7978F /* PixivUserOffViewController.swift */; };
+		B2521CC01DFCD50100C7978F /* ProcyonSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C631DFCD50100C7978F /* ProcyonSystem.swift */; };
+		B2521CC11DFCD50100C7978F /* ProcyonAccountSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C661DFCD50100C7978F /* ProcyonAccountSettingViewController.swift */; };
+		B2521CC41DFCD50100C7978F /* ProcyonLuanch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2521C691DFCD50100C7978F /* ProcyonLuanch.storyboard */; };
+		B2521CC51DFCD50100C7978F /* ProcyonLuanchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C6A1DFCD50100C7978F /* ProcyonLuanchViewController.swift */; };
+		B2521CC61DFCD50100C7978F /* ProcyonMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2521C6B1DFCD50100C7978F /* ProcyonMain.storyboard */; };
+		B2521CC71DFCD50100C7978F /* ProcyonMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C6C1DFCD50100C7978F /* ProcyonMainViewController.swift */; };
+		B2521CC81DFCD50100C7978F /* ProcyonPassCodeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C6D1DFCD50100C7978F /* ProcyonPassCodeWindow.swift */; };
+		B2521CC91DFCD50100C7978F /* ProcyonSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2521C6E1DFCD50100C7978F /* ProcyonSettingViewController.swift */; };
+		B263BEA01E93422400BC42A3 /* RMKeyCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B263BE9F1E93422400BC42A3 /* RMKeyCommand.swift */; };
+		B268217D1E4720C30067633D /* NicoBaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B268217C1E4720C30067633D /* NicoBaseCollectionViewController.swift */; };
+		B268217F1E4721920067633D /* NicoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B268217E1E4721920067633D /* NicoAPI.swift */; };
+		B26821811E4735CA0067633D /* PixivWebViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26821801E4735CA0067633D /* PixivWebViewControllers.swift */; };
+		B26C256D1E11175A00392251 /* PixivUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26C256C1E11175A00392251 /* PixivUserViewController.swift */; };
+		B26EEC8B1E364EE000A555D1 /* PixivUserViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26EEC8A1E364EE000A555D1 /* PixivUserViewControllers.swift */; };
+		B2707B2F1E724673007FED3F /* PixivCardCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2707B2E1E724673007FED3F /* PixivCardCellBase.swift */; };
+		B271B21B1E2BA4F8004220CB /* RMStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271B21A1E2BA4F8004220CB /* RMStoreManager.swift */; };
+		B275EEC41E2637DF00685E4A /* PixivOthorAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B275EEC31E2637DF00685E4A /* PixivOthorAPI.swift */; };
+		B275EEC61E2641BF00685E4A /* ADWebViewBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B275EEC51E2641BF00685E4A /* ADWebViewBaseController.swift */; };
+		B27737601E24D0E400DA9DD5 /* TestAccountMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B277375F1E24D0E400DA9DD5 /* TestAccountMain.storyboard */; };
+		B27737621E24D41000DA9DD5 /* TestAccountChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27737611E24D41000DA9DD5 /* TestAccountChangeViewController.swift */; };
+		B27AC0A01E20C6110014005C /* PixivNovelSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27AC09F1E20C6110014005C /* PixivNovelSettingView.swift */; };
+		B27AC0A21E20C8B70014005C /* RMBluerBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27AC0A11E20C8B70014005C /* RMBluerBlur.swift */; };
+		B27AC0A71E20EB360014005C /* PixivNovelSearchSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27AC0A61E20EB360014005C /* PixivNovelSearchSettingViewController.swift */; };
+		B27AC0A91E20EBC10014005C /* PixivNovelSearchInner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27AC0A81E20EBC10014005C /* PixivNovelSearchInner.swift */; };
+		B27AC0AB1E20F2AB0014005C /* PixivNovelHistoryInner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27AC0AA1E20F2AB0014005C /* PixivNovelHistoryInner.swift */; };
+		B27AC0AD1E20F31B0014005C /* PixivNovelAccountInner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27AC0AC1E20F31B0014005C /* PixivNovelAccountInner.swift */; };
+		B27AC0B11E20F3B30014005C /* PixivNovelAccountViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27AC0B01E20F3B30014005C /* PixivNovelAccountViewControllers.swift */; };
+		B288BB2C1E3A495600DA06BF /* PixivRankingDialogInner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288BB2B1E3A495600DA06BF /* PixivRankingDialogInner.swift */; };
+		B28E3CC61E34964800817CB8 /* ProcyonDeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28E3CC51E34964800817CB8 /* ProcyonDeveloperViewController.swift */; };
+		B291C1E31E8347D7002CD8C1 /* ProcyonTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B291C1E21E8347D7002CD8C1 /* ProcyonTutorialViewController.swift */; };
+		B291C2091E839A06002CD8C1 /* RMAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B291C2081E839A06002CD8C1 /* RMAction.swift */; };
+		B29209281E417B75001DBF31 /* PixivPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29209271E417B75001DBF31 /* PixivPostViewController.swift */; };
+		B295629A1E0E4CA600D7F273 /* PixivUserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29562991E0E4CA600D7F273 /* PixivUserViewCell.swift */; };
+		B297EDC21E1BC9D600588157 /* PixivMyWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B297EDC11E1BC9D600588157 /* PixivMyWorksViewController.swift */; };
+		B2985CD71E0A762C00939993 /* HTML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B269BA211E0A375D00EFACDD /* HTML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B29F35DE1E06840700F96D6A /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35AE1E06840700F96D6A /* AppColor.swift */; };
+		B29F35DF1E06840700F96D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35AF1E06840700F96D6A /* AppDelegate.swift */; };
+		B29F35E01E06840700F96D6A /* ClipBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35B01E06840700F96D6A /* ClipBoard.swift */; };
+		B29F35E11E06840700F96D6A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35B11E06840700F96D6A /* Extensions.swift */; };
+		B29F35E21E06840700F96D6A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35B21E06840700F96D6A /* Font.swift */; };
+		B29F35E31E06840700F96D6A /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35B31E06840700F96D6A /* GlobalFunctions.swift */; };
+		B29F35E41E06840700F96D6A /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35B41E06840700F96D6A /* GlobalVariables.swift */; };
+		B29F35E51E06840700F96D6A /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35B51E06840700F96D6A /* Operators.swift */; };
+		B29F35E61E06840700F96D6A /* UIAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35B61E06840700F96D6A /* UIAppearance.swift */; };
+		B29F35E71E06840700F96D6A /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35B81E06840700F96D6A /* ionicons.ttf */; };
+		B29F35E81E06840700F96D6A /* mi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35B91E06840700F96D6A /* mi.ttf */; };
+		B29F35E91E06840800F96D6A /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35BA1E06840700F96D6A /* Roboto-Black.ttf */; };
+		B29F35EA1E06840800F96D6A /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35BB1E06840700F96D6A /* Roboto-BlackItalic.ttf */; };
+		B29F35EB1E06840800F96D6A /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35BC1E06840700F96D6A /* Roboto-Bold.ttf */; };
+		B29F35EC1E06840800F96D6A /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35BD1E06840700F96D6A /* Roboto-BoldItalic.ttf */; };
+		B29F35ED1E06840800F96D6A /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35BE1E06840700F96D6A /* Roboto-Italic.ttf */; };
+		B29F35EE1E06840800F96D6A /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35BF1E06840700F96D6A /* Roboto-Light.ttf */; };
+		B29F35EF1E06840800F96D6A /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35C01E06840700F96D6A /* Roboto-LightItalic.ttf */; };
+		B29F35F01E06840800F96D6A /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35C11E06840700F96D6A /* Roboto-Medium.ttf */; };
+		B29F35F11E06840800F96D6A /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35C21E06840700F96D6A /* Roboto-MediumItalic.ttf */; };
+		B29F35F21E06840800F96D6A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35C31E06840700F96D6A /* Roboto-Regular.ttf */; };
+		B29F35F31E06840800F96D6A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35C41E06840700F96D6A /* Roboto-Thin.ttf */; };
+		B29F35F41E06840800F96D6A /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F35C51E06840700F96D6A /* Roboto-ThinItalic.ttf */; };
+		B29F35F51E06840800F96D6A /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35C71E06840700F96D6A /* JSON.swift */; };
+		B29F35F61E06840800F96D6A /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35C81E06840700F96D6A /* Regex.swift */; };
+		B29F35F71E06840800F96D6A /* RMAudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35CC1E06840700F96D6A /* RMAudioManager.swift */; };
+		B29F35F81E06840800F96D6A /* RMCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35CD1E06840700F96D6A /* RMCache.swift */; };
+		B29F35F91E06840800F96D6A /* RMDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35CE1E06840700F96D6A /* RMDevice.swift */; };
+		B29F35FA1E06840800F96D6A /* RMFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35CF1E06840700F96D6A /* RMFileManager.swift */; };
+		B29F35FB1E06840800F96D6A /* RMInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35D01E06840700F96D6A /* RMInfo.swift */; };
+		B29F35FC1E06840800F96D6A /* RMNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35D11E06840700F96D6A /* RMNet.swift */; };
+		B29F35FD1E06840800F96D6A /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35D21E06840700F96D6A /* RMRequest.swift */; };
+		B29F35FE1E06840800F96D6A /* RMSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35D31E06840700F96D6A /* RMSystem.swift */; };
+		B29F35FF1E06840800F96D6A /* RMTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35D41E06840700F96D6A /* RMTimer.swift */; };
+		B29F36001E06840800F96D6A /* RMCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35D61E06840700F96D6A /* RMCameraView.swift */; };
+		B29F36011E06840800F96D6A /* RMDocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35D71E06840700F96D6A /* RMDocumentController.swift */; };
+		B29F36021E06840800F96D6A /* RMImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35D81E06840700F96D6A /* RMImagePicker.swift */; };
+		B29F36031E06840800F96D6A /* RMMailSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35D91E06840700F96D6A /* RMMailSender.swift */; };
+		B29F36041E06840800F96D6A /* RMQRReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35DA1E06840700F96D6A /* RMQRReadView.swift */; };
+		B29F36051E06840800F96D6A /* RMShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35DB1E06840700F96D6A /* RMShare.swift */; };
+		B29F36061E06840800F96D6A /* RMUIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35DC1E06840700F96D6A /* RMUIs.swift */; };
+		B29F36071E06840800F96D6A /* RMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F35DD1E06840700F96D6A /* RMViewController.swift */; };
+		B2A223C71E8C6A0300C1950A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2A223C91E8C6A0300C1950A /* Localizable.strings */; };
+		B2A5E7AF1E8267A30092F60D /* RMWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A5E7AE1E8267A30092F60D /* RMWebView.swift */; };
+		B2A65E831E15345C004F5761 /* TestAccountInner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A65E821E15345C004F5761 /* TestAccountInner.swift */; };
+		B2A65E881E160AD1004F5761 /* RMRunCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A65E871E160AD1004F5761 /* RMRunCounter.swift */; };
+		B2A65E8C1E163268004F5761 /* PixivAccontViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A65E8B1E163268004F5761 /* PixivAccontViewControllers.swift */; };
+		B2A65E8E1E166DA4004F5761 /* TestHistoryInner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A65E8D1E166DA4004F5761 /* TestHistoryInner.swift */; };
+		B2A7633D1E85DB69004D6F96 /* ProcyonFirstLoginedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A7633C1E85DB69004D6F96 /* ProcyonFirstLoginedViewController.swift */; };
+		B2A7633F1E865174004D6F96 /* ProcyonFirstNoAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A7633E1E865174004D6F96 /* ProcyonFirstNoAccountsViewController.swift */; };
+		B2A763411E865B71004D6F96 /* ProcyonFirstLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A763401E865B71004D6F96 /* ProcyonFirstLoginViewController.swift */; };
+		B2A8ECFE1E6FE44700E2C6EE /* PixivPageBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8ECFD1E6FE44700E2C6EE /* PixivPageBaseViewController.swift */; };
+		B2AB0DA71E112DB4004F60C7 /* PixivMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB0DA61E112DB4004F60C7 /* PixivMainViewController.swift */; };
+		B2AB0DA91E112FF9004F60C7 /* PixivCollectionViewBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB0DA81E112FF9004F60C7 /* PixivCollectionViewBaseController.swift */; };
+		B2AB0DAC1E1203BB004F60C7 /* PixivWorkThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB0DAB1E1203BB004F60C7 /* PixivWorkThumbnailCell.swift */; };
+		B2AB0DAE1E128690004F60C7 /* TestInners.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB0DAD1E128690004F60C7 /* TestInners.swift */; };
+		B2B27AB11E1391D10012526D /* PixivInternalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B27AB01E1391D10012526D /* PixivInternalAPI.swift */; };
+		B2BAF8941E24ADF3006E1492 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAF8931E24ADF3006E1492 /* App.swift */; };
+		B2BAF8971E24B59E006E1492 /* TestAccountSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAF8961E24B59E006E1492 /* TestAccountSettingViewController.swift */; };
+		B2BAF8991E24CED1006E1492 /* TestAccountWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BAF8981E24CED1006E1492 /* TestAccountWebViewController.swift */; };
+		B2CC27811E73AE8B00BD9149 /* PixivNovelSeriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CC27801E73AE8B00BD9149 /* PixivNovelSeriesCell.swift */; };
+		B2CCB3E91E727D2200A03F53 /* PixivRelatedWorksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CCB3E81E727D2200A03F53 /* PixivRelatedWorksCell.swift */; };
+		B2CE05D81E7E917600AE9B43 /* ADDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CE05D71E7E917600AE9B43 /* ADDrawerViewController.swift */; };
+		B2D0C2FE1E4756BB003DFC0F /* NicoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0C2FD1E4756BB003DFC0F /* NicoData.swift */; };
+		B2D0C3001E47F076003DFC0F /* NicoTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0C2FF1E47F076003DFC0F /* NicoTestViewController.swift */; };
+		B2D0C3021E47F19B003DFC0F /* NicoSeigaThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0C3011E47F19B003DFC0F /* NicoSeigaThumbnailCell.swift */; };
+		B2DA08C21E93289700FB0FC4 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DA08C11E93289700FB0FC4 /* Zip.framework */; };
+		B2DA08C31E93289700FB0FC4 /* Zip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B2DA08C11E93289700FB0FC4 /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B2DAE7611E2DF489005B4DEB /* PixivImageCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DAE7601E2DF489005B4DEB /* PixivImageCellViewController.swift */; };
+		B2DAE7631E2E16BD005B4DEB /* PixivNovelImageCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DAE7621E2E16BD005B4DEB /* PixivNovelImageCellViewController.swift */; };
+		B2E18E031E35F55700BC13B9 /* PixivUserCollectionViewBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E18E021E35F55700BC13B9 /* PixivUserCollectionViewBaseController.swift */; };
+		B2E18E061E35F7E200BC13B9 /* PixivUserThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E18E051E35F7E200BC13B9 /* PixivUserThumbnailCell.swift */; };
+		B2E18E0A1E36037200BC13B9 /* PixivUserInners.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E18E091E36037200BC13B9 /* PixivUserInners.swift */; };
+		B2ED75CF1E38F66700291877 /* RMTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ED75CE1E38F66700291877 /* RMTextView.swift */; };
+		B2F3FF0C1E0FECB700E6C221 /* PixivViewBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F3FF0B1E0FECB700E6C221 /* PixivViewBaseController.swift */; };
+		B2F3FF0F1E0FF70400E6C221 /* PixivCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F3FF0E1E0FF70400E6C221 /* PixivCommentViewController.swift */; };
+		B2F6A6AB1E7917E40085B065 /* PixivPageCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F6A6AA1E7917E40085B065 /* PixivPageCountView.swift */; };
+		B2F70A931E2A746000F99B5E /* PixivAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F70A921E2A746000F99B5E /* PixivAlbumViewController.swift */; };
+		B2F70A951E2A74F300F99B5E /* TestAlbumInner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F70A941E2A74F300F99B5E /* TestAlbumInner.swift */; };
+		B2F70A971E2A75F200F99B5E /* PixivAlbumAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F70A961E2A75F200F99B5E /* PixivAlbumAPI.swift */; };
+		B2F70A9C1E2A874000F99B5E /* PixivAlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F70A9B1E2A874000F99B5E /* PixivAlbumsViewController.swift */; };
+		B2F70A9E1E2A875900F99B5E /* PixivAlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F70A9D1E2A875900F99B5E /* PixivAlbumCell.swift */; };
+		B2F70AA01E2B35D000F99B5E /* PixivAlbumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F70A9F1E2B35D000F99B5E /* PixivAlbumData.swift */; };
+		B2F769BD1E82100E00E0DE2A /* ProcyonAccountEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F769BC1E82100E00E0DE2A /* ProcyonAccountEditViewController.swift */; };
+		B2F9B9D31E20FE30000511F6 /* PixivNovelCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9B9D21E20FE30000511F6 /* PixivNovelCommentViewController.swift */; };
+		B2F9B9DE1E226B43000511F6 /* PixivUgoiraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9B9DD1E226B43000511F6 /* PixivUgoiraViewController.swift */; };
+		B2F9B9E11E2272B8000511F6 /* RMScrollableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9B9E01E2272B8000511F6 /* RMScrollableImageView.swift */; };
+		B2F9B9E31E2273F6000511F6 /* PixivLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9B9E21E2273F6000511F6 /* PixivLaunchViewController.swift */; };
+		B2F9B9E71E227621000511F6 /* PixivUserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9B9E61E227621000511F6 /* PixivUserDataViewController.swift */; };
+		B2F9B9E91E2277AB000511F6 /* PixivSearchHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9B9E81E2277AB000511F6 /* PixivSearchHistoryViewController.swift */; };
+		B2FE12361E0C0FBC00A4FA9C /* PixivImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FE12351E0C0FBC00A4FA9C /* PixivImageViewController.swift */; };
+		B2FE12391E0C170100A4FA9C /* PixivImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FE12381E0C170100A4FA9C /* PixivImageViewCell.swift */; };
+		B2FE123B1E0D2B6C00A4FA9C /* PixivTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FE123A1E0D2B6C00A4FA9C /* PixivTextViewCell.swift */; };
+		B2FE123D1E0D411400A4FA9C /* PixivData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FE123C1E0D411400A4FA9C /* PixivData.swift */; };
+		B2FEE84B1E866FCA00FBCD68 /* ProcyonFirstCreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FEE84A1E866FCA00FBCD68 /* ProcyonFirstCreateAccountViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2985CDA1E0A762C00939993 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B2DA08C31E93289700FB0FC4 /* Zip.framework in Embed Frameworks */,
+				B2985CD71E0A762C00939993 /* HTML.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B2000ED31E1884F0008B33DF /* PixivNovelThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelThumbnailCell.swift; sourceTree = "<group>"; };
+		B2000ED51E18853B008B33DF /* ADIconLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADIconLabel.swift; sourceTree = "<group>"; };
+		B202E44F1E1A610F00E5030E /* PixivNovelImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelImageViewController.swift; sourceTree = "<group>"; };
+		B202E4511E1A61C700E5030E /* PixivNovelInternalAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelInternalAPI.swift; sourceTree = "<group>"; };
+		B202E4541E1A632400E5030E /* PixivNovelImagePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelImagePageViewController.swift; sourceTree = "<group>"; };
+		B202E4561E1A639000E5030E /* PixivNovelImagePageCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelImagePageCellViewController.swift; sourceTree = "<group>"; };
+		B202E45A1E1A67BC00E5030E /* PixivNovelInners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelInners.swift; sourceTree = "<group>"; };
+		B2072EAF1E17F7B300BE75C3 /* PixivOtherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivOtherData.swift; sourceTree = "<group>"; };
+		B2154FED1E177D2C00AD8DC8 /* RMDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMDate.swift; sourceTree = "<group>"; };
+		B219C9B21DFCD9D2004C5EDA /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		B21E3E6A1E1E125D00A78628 /* RMURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMURL.swift; sourceTree = "<group>"; };
+		B22A3A7F1E0EA0D3007B4D7C /* PixivImageMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PixivImageMenuView.swift; path = ../../ViewControllers/PixivImageMenuView.swift; sourceTree = "<group>"; };
+		B22A3A811E0EB2EB007B4D7C /* PixivCommentViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivCommentViewCell.swift; sourceTree = "<group>"; };
+		B234C1EB1E1F2D4A00C8942B /* PixivHeaderButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivHeaderButtonsView.swift; sourceTree = "<group>"; };
+		B2366A111E0EC4090007ABD4 /* PixivHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivHeaderView.swift; sourceTree = "<group>"; };
+		B2366A131E0EC7440007ABD4 /* PixivButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivButtonCell.swift; sourceTree = "<group>"; };
+		B2366A161E0F780B0007ABD4 /* PixivImagePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivImagePageViewController.swift; sourceTree = "<group>"; };
+		B2366A181E0F787E0007ABD4 /* PixivImagePageCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivImagePageCellViewController.swift; sourceTree = "<group>"; };
+		B2366A1A1E0FAC820007ABD4 /* PixivPageViewBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivPageViewBaseController.swift; sourceTree = "<group>"; };
+		B24018B71E7E0FC000854DC0 /* ADDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDrawerController.swift; sourceTree = "<group>"; };
+		B24018B91E7E10F000854DC0 /* PixivDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivDrawerViewController.swift; sourceTree = "<group>"; };
+		B24D1B681E1712C900F911FF /* PixivRelatedWorksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivRelatedWorksViewController.swift; sourceTree = "<group>"; };
+		B24D1B6C1E17154300F911FF /* PixivSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivSearchViewController.swift; sourceTree = "<group>"; };
+		B24D1B6E1E17161C00F911FF /* PixivSearchInner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivSearchInner.swift; sourceTree = "<group>"; };
+		B24D1B701E17231900F911FF /* PixivSearchSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivSearchSettingViewController.swift; sourceTree = "<group>"; };
+		B24DB9EF1E17B4FA00CC1087 /* PixivNovelMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelMainViewController.swift; sourceTree = "<group>"; };
+		B24DB9F21E17B56B00CC1087 /* PixivNovelCollectionViewBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelCollectionViewBaseController.swift; sourceTree = "<group>"; };
+		B24DB9F41E17B5A000CC1087 /* PixivNovelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelData.swift; sourceTree = "<group>"; };
+		B2521B211DFCD47A00C7978F /* Procyon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Procyon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2521B391DFCD49B00C7978F /* ADColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADColor.swift; sourceTree = "<group>"; };
+		B2521B3A1DFCD49B00C7978F /* ADConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADConfig.swift; sourceTree = "<group>"; };
+		B2521B3C1DFCD49B00C7978F /* ADActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADActivityIndicator.swift; sourceTree = "<group>"; };
+		B2521B3D1DFCD49B00C7978F /* ADDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDialog.swift; sourceTree = "<group>"; };
+		B2521B3E1DFCD49B00C7978F /* ADButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADButton.swift; sourceTree = "<group>"; };
+		B2521B3F1DFCD49B00C7978F /* ADHomeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeButton.swift; sourceTree = "<group>"; };
+		B2521B401DFCD49B00C7978F /* ADMainButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADMainButton.swift; sourceTree = "<group>"; };
+		B2521B411DFCD49B00C7978F /* ADMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADMenu.swift; sourceTree = "<group>"; };
+		B2521B421DFCD49B00C7978F /* ADNoProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADNoProfile.swift; sourceTree = "<group>"; };
+		B2521B431DFCD49B00C7978F /* ADPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADPageViewController.swift; sourceTree = "<group>"; };
+		B2521B441DFCD49B00C7978F /* ADRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADRefreshControl.swift; sourceTree = "<group>"; };
+		B2521B451DFCD49B00C7978F /* ADSearchEstimatedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSearchEstimatedView.swift; sourceTree = "<group>"; };
+		B2521B461DFCD49B00C7978F /* ADSetPassMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ADSetPassMain.storyboard; sourceTree = "<group>"; };
+		B2521B471DFCD49B00C7978F /* ADSetPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSetPassViewController.swift; sourceTree = "<group>"; };
+		B2521B481DFCD49B00C7978F /* ADSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSlider.swift; sourceTree = "<group>"; };
+		B2521B491DFCD49B00C7978F /* ADSnackbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSnackbar.swift; sourceTree = "<group>"; };
+		B2521B4A1DFCD49B00C7978F /* ADSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSwitch.swift; sourceTree = "<group>"; };
+		B2521B4B1DFCD49B00C7978F /* ADTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADTextField.swift; sourceTree = "<group>"; };
+		B2521B4C1DFCD49B00C7978F /* ADTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADTip.swift; sourceTree = "<group>"; };
+		B2521B4D1DFCD49B00C7978F /* ADWaitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADWaitView.swift; sourceTree = "<group>"; };
+		B2521B4F1DFCD49B00C7978F /* ADCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADCardView.swift; path = "UI Base/ADCardView.swift"; sourceTree = "<group>"; };
+		B2521B501DFCD49B00C7978F /* ADCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADCollectionViewCell.swift; path = "UI Base/ADCollectionViewCell.swift"; sourceTree = "<group>"; };
+		B2521B511DFCD49B00C7978F /* ADImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADImageView.swift; path = "UI Base/ADImageView.swift"; sourceTree = "<group>"; };
+		B2521B521DFCD49B00C7978F /* ADLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADLayer.swift; path = "UI Base/ADLayer.swift"; sourceTree = "<group>"; };
+		B2521B531DFCD49B00C7978F /* ADTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADTableViewCell.swift; path = "UI Base/ADTableViewCell.swift"; sourceTree = "<group>"; };
+		B2521B551DFCD49B00C7978F /* ADHorizontalMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADHorizontalMenu.swift; path = ../Base/ADHorizontalMenu.swift; sourceTree = "<group>"; };
+		B2521B561DFCD49B00C7978F /* ADNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADNavigationViewController.swift; path = ../Base/ADNavigationViewController.swift; sourceTree = "<group>"; };
+		B2521B571DFCD49B00C7978F /* ADSettingViewBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADSettingViewBaseController.swift; path = ../Base/ADSettingViewBaseController.swift; sourceTree = "<group>"; };
+		B2521B581DFCD49B00C7978F /* ADTableViewBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADTableViewBaseController.swift; path = ../Base/ADTableViewBaseController.swift; sourceTree = "<group>"; };
+		B2521B591DFCD49B00C7978F /* ADViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ADViewController.swift; path = ../Base/ADViewController.swift; sourceTree = "<group>"; };
+		B2521BFE1DFCD50100C7978F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2521BFF1DFCD50100C7978F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B2521C021DFCD50100C7978F /* BH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BH.h; sourceTree = "<group>"; };
+		B2521C031DFCD50100C7978F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../System/Info.plist; sourceTree = "<group>"; };
+		B2521C141DFCD50100C7978F /* PixivAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivAPI.swift; sourceTree = "<group>"; };
+		B2521C151DFCD50100C7978F /* PIxivNovelAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PIxivNovelAPI.swift; sourceTree = "<group>"; };
+		B2521C161DFCD50100C7978F /* PixivPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivPost.swift; sourceTree = "<group>"; };
+		B2521C171DFCD50100C7978F /* PixivSaveManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivSaveManager.swift; sourceTree = "<group>"; };
+		B2521C181DFCD50100C7978F /* PixivSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivSystem.swift; sourceTree = "<group>"; };
+		B2521C1B1DFCD50100C7978F /* PixivAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivAccountView.swift; sourceTree = "<group>"; };
+		B2521C1D1DFCD50100C7978F /* PixivFollowUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivFollowUserView.swift; sourceTree = "<group>"; };
+		B2521C1E1DFCD50100C7978F /* PixivExtraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivExtraView.swift; sourceTree = "<group>"; };
+		B2521C211DFCD50100C7978F /* PixiVisionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixiVisionView.swift; sourceTree = "<group>"; };
+		B2521C251DFCD50100C7978F /* PixivUgoiraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivUgoiraView.swift; sourceTree = "<group>"; };
+		B2521C2D1DFCD50100C7978F /* PixivWebViewBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PixivWebViewBaseController.swift; path = Encyclopedia/PixivWebViewBaseController.swift; sourceTree = "<group>"; };
+		B2521C5B1DFCD50100C7978F /* PixivSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PixivSettingViewController.swift; path = Setting/PixivSettingViewController.swift; sourceTree = "<group>"; };
+		B2521C5C1DFCD50100C7978F /* PixivTagOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PixivTagOffViewController.swift; path = Setting/PixivTagOffViewController.swift; sourceTree = "<group>"; };
+		B2521C5E1DFCD50100C7978F /* PixivUserOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PixivUserOffViewController.swift; path = Setting/PixivUserOffViewController.swift; sourceTree = "<group>"; };
+		B2521C631DFCD50100C7978F /* ProcyonSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonSystem.swift; sourceTree = "<group>"; };
+		B2521C661DFCD50100C7978F /* ProcyonAccountSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonAccountSettingViewController.swift; sourceTree = "<group>"; };
+		B2521C691DFCD50100C7978F /* ProcyonLuanch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProcyonLuanch.storyboard; sourceTree = "<group>"; };
+		B2521C6A1DFCD50100C7978F /* ProcyonLuanchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonLuanchViewController.swift; sourceTree = "<group>"; };
+		B2521C6B1DFCD50100C7978F /* ProcyonMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProcyonMain.storyboard; sourceTree = "<group>"; };
+		B2521C6C1DFCD50100C7978F /* ProcyonMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonMainViewController.swift; sourceTree = "<group>"; };
+		B2521C6D1DFCD50100C7978F /* ProcyonPassCodeWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonPassCodeWindow.swift; sourceTree = "<group>"; };
+		B2521C6E1DFCD50100C7978F /* ProcyonSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonSettingViewController.swift; sourceTree = "<group>"; };
+		B263BE9F1E93422400BC42A3 /* RMKeyCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMKeyCommand.swift; sourceTree = "<group>"; };
+		B268217C1E4720C30067633D /* NicoBaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NicoBaseCollectionViewController.swift; sourceTree = "<group>"; };
+		B268217E1E4721920067633D /* NicoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NicoAPI.swift; sourceTree = "<group>"; };
+		B26821801E4735CA0067633D /* PixivWebViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivWebViewControllers.swift; sourceTree = "<group>"; };
+		B269BA211E0A375D00EFACDD /* HTML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HTML.framework; sourceTree = "<group>"; };
+		B26C256C1E11175A00392251 /* PixivUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivUserViewController.swift; sourceTree = "<group>"; };
+		B26EEC8A1E364EE000A555D1 /* PixivUserViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivUserViewControllers.swift; sourceTree = "<group>"; };
+		B2707B2E1E724673007FED3F /* PixivCardCellBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivCardCellBase.swift; sourceTree = "<group>"; };
+		B271B21A1E2BA4F8004220CB /* RMStoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMStoreManager.swift; sourceTree = "<group>"; };
+		B271B21D1E2BB481004220CB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B275EEC31E2637DF00685E4A /* PixivOthorAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivOthorAPI.swift; sourceTree = "<group>"; };
+		B275EEC51E2641BF00685E4A /* ADWebViewBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADWebViewBaseController.swift; sourceTree = "<group>"; };
+		B277375F1E24D0E400DA9DD5 /* TestAccountMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TestAccountMain.storyboard; sourceTree = "<group>"; };
+		B27737611E24D41000DA9DD5 /* TestAccountChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAccountChangeViewController.swift; sourceTree = "<group>"; };
+		B27AC09F1E20C6110014005C /* PixivNovelSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PixivNovelSettingView.swift; path = ../../ViewControllers/PixivNovelSettingView.swift; sourceTree = "<group>"; };
+		B27AC0A11E20C8B70014005C /* RMBluerBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBluerBlur.swift; sourceTree = "<group>"; };
+		B27AC0A61E20EB360014005C /* PixivNovelSearchSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelSearchSettingViewController.swift; sourceTree = "<group>"; };
+		B27AC0A81E20EBC10014005C /* PixivNovelSearchInner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelSearchInner.swift; sourceTree = "<group>"; };
+		B27AC0AA1E20F2AB0014005C /* PixivNovelHistoryInner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelHistoryInner.swift; sourceTree = "<group>"; };
+		B27AC0AC1E20F31B0014005C /* PixivNovelAccountInner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelAccountInner.swift; sourceTree = "<group>"; };
+		B27AC0B01E20F3B30014005C /* PixivNovelAccountViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelAccountViewControllers.swift; sourceTree = "<group>"; };
+		B288BB2B1E3A495600DA06BF /* PixivRankingDialogInner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivRankingDialogInner.swift; sourceTree = "<group>"; };
+		B28E3CC51E34964800817CB8 /* ProcyonDeveloperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonDeveloperViewController.swift; sourceTree = "<group>"; };
+		B291C1E21E8347D7002CD8C1 /* ProcyonTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonTutorialViewController.swift; sourceTree = "<group>"; };
+		B291C2081E839A06002CD8C1 /* RMAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMAction.swift; sourceTree = "<group>"; };
+		B29209271E417B75001DBF31 /* PixivPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivPostViewController.swift; sourceTree = "<group>"; };
+		B29562991E0E4CA600D7F273 /* PixivUserViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivUserViewCell.swift; sourceTree = "<group>"; };
+		B297EDC11E1BC9D600588157 /* PixivMyWorksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivMyWorksViewController.swift; sourceTree = "<group>"; };
+		B29F35AE1E06840700F96D6A /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		B29F35AF1E06840700F96D6A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B29F35B01E06840700F96D6A /* ClipBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipBoard.swift; sourceTree = "<group>"; };
+		B29F35B11E06840700F96D6A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B29F35B21E06840700F96D6A /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		B29F35B31E06840700F96D6A /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		B29F35B41E06840700F96D6A /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		B29F35B51E06840700F96D6A /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		B29F35B61E06840700F96D6A /* UIAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAppearance.swift; sourceTree = "<group>"; };
+		B29F35B81E06840700F96D6A /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		B29F35B91E06840700F96D6A /* mi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mi.ttf; sourceTree = "<group>"; };
+		B29F35BA1E06840700F96D6A /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		B29F35BB1E06840700F96D6A /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B29F35BC1E06840700F96D6A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		B29F35BD1E06840700F96D6A /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B29F35BE1E06840700F96D6A /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		B29F35BF1E06840700F96D6A /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		B29F35C01E06840700F96D6A /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		B29F35C11E06840700F96D6A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		B29F35C21E06840700F96D6A /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B29F35C31E06840700F96D6A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		B29F35C41E06840700F96D6A /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		B29F35C51E06840700F96D6A /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B29F35C71E06840700F96D6A /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		B29F35C81E06840700F96D6A /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		B29F35CC1E06840700F96D6A /* RMAudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMAudioManager.swift; sourceTree = "<group>"; };
+		B29F35CD1E06840700F96D6A /* RMCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMCache.swift; sourceTree = "<group>"; };
+		B29F35CE1E06840700F96D6A /* RMDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMDevice.swift; sourceTree = "<group>"; };
+		B29F35CF1E06840700F96D6A /* RMFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMFileManager.swift; sourceTree = "<group>"; };
+		B29F35D01E06840700F96D6A /* RMInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMInfo.swift; sourceTree = "<group>"; };
+		B29F35D11E06840700F96D6A /* RMNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMNet.swift; sourceTree = "<group>"; };
+		B29F35D21E06840700F96D6A /* RMRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
+		B29F35D31E06840700F96D6A /* RMSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMSystem.swift; sourceTree = "<group>"; };
+		B29F35D41E06840700F96D6A /* RMTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMTimer.swift; sourceTree = "<group>"; };
+		B29F35D61E06840700F96D6A /* RMCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMCameraView.swift; sourceTree = "<group>"; };
+		B29F35D71E06840700F96D6A /* RMDocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMDocumentController.swift; sourceTree = "<group>"; };
+		B29F35D81E06840700F96D6A /* RMImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMImagePicker.swift; sourceTree = "<group>"; };
+		B29F35D91E06840700F96D6A /* RMMailSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMMailSender.swift; sourceTree = "<group>"; };
+		B29F35DA1E06840700F96D6A /* RMQRReadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMQRReadView.swift; sourceTree = "<group>"; };
+		B29F35DB1E06840700F96D6A /* RMShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMShare.swift; sourceTree = "<group>"; };
+		B29F35DC1E06840700F96D6A /* RMUIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMUIs.swift; sourceTree = "<group>"; };
+		B29F35DD1E06840700F96D6A /* RMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMViewController.swift; sourceTree = "<group>"; };
+		B2A223C81E8C6A0300C1950A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B2A223CA1E8C6A0F00C1950A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B2A223CB1E8C6A1000C1950A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B2A223CC1E8C6A1100C1950A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B2A5E7AE1E8267A30092F60D /* RMWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMWebView.swift; sourceTree = "<group>"; };
+		B2A65E821E15345C004F5761 /* TestAccountInner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAccountInner.swift; sourceTree = "<group>"; };
+		B2A65E871E160AD1004F5761 /* RMRunCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRunCounter.swift; sourceTree = "<group>"; };
+		B2A65E8B1E163268004F5761 /* PixivAccontViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivAccontViewControllers.swift; sourceTree = "<group>"; };
+		B2A65E8D1E166DA4004F5761 /* TestHistoryInner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHistoryInner.swift; sourceTree = "<group>"; };
+		B2A7633C1E85DB69004D6F96 /* ProcyonFirstLoginedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonFirstLoginedViewController.swift; sourceTree = "<group>"; };
+		B2A7633E1E865174004D6F96 /* ProcyonFirstNoAccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonFirstNoAccountsViewController.swift; sourceTree = "<group>"; };
+		B2A763401E865B71004D6F96 /* ProcyonFirstLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonFirstLoginViewController.swift; sourceTree = "<group>"; };
+		B2A8ECFD1E6FE44700E2C6EE /* PixivPageBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivPageBaseViewController.swift; sourceTree = "<group>"; };
+		B2AB0DA61E112DB4004F60C7 /* PixivMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivMainViewController.swift; sourceTree = "<group>"; };
+		B2AB0DA81E112FF9004F60C7 /* PixivCollectionViewBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivCollectionViewBaseController.swift; sourceTree = "<group>"; };
+		B2AB0DAB1E1203BB004F60C7 /* PixivWorkThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivWorkThumbnailCell.swift; sourceTree = "<group>"; };
+		B2AB0DAD1E128690004F60C7 /* TestInners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestInners.swift; sourceTree = "<group>"; };
+		B2B27AB01E1391D10012526D /* PixivInternalAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivInternalAPI.swift; sourceTree = "<group>"; };
+		B2BAF8931E24ADF3006E1492 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		B2BAF8961E24B59E006E1492 /* TestAccountSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAccountSettingViewController.swift; sourceTree = "<group>"; };
+		B2BAF8981E24CED1006E1492 /* TestAccountWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAccountWebViewController.swift; sourceTree = "<group>"; };
+		B2CC27801E73AE8B00BD9149 /* PixivNovelSeriesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelSeriesCell.swift; sourceTree = "<group>"; };
+		B2CCB3E81E727D2200A03F53 /* PixivRelatedWorksCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivRelatedWorksCell.swift; sourceTree = "<group>"; };
+		B2CE05D71E7E917600AE9B43 /* ADDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDrawerViewController.swift; sourceTree = "<group>"; };
+		B2D0C2FD1E4756BB003DFC0F /* NicoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NicoData.swift; sourceTree = "<group>"; };
+		B2D0C2FF1E47F076003DFC0F /* NicoTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NicoTestViewController.swift; sourceTree = "<group>"; };
+		B2D0C3011E47F19B003DFC0F /* NicoSeigaThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NicoSeigaThumbnailCell.swift; sourceTree = "<group>"; };
+		B2DA08C11E93289700FB0FC4 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Zip.framework; sourceTree = "<group>"; };
+		B2DAE7601E2DF489005B4DEB /* PixivImageCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivImageCellViewController.swift; sourceTree = "<group>"; };
+		B2DAE7621E2E16BD005B4DEB /* PixivNovelImageCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelImageCellViewController.swift; sourceTree = "<group>"; };
+		B2E18E021E35F55700BC13B9 /* PixivUserCollectionViewBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivUserCollectionViewBaseController.swift; sourceTree = "<group>"; };
+		B2E18E051E35F7E200BC13B9 /* PixivUserThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivUserThumbnailCell.swift; sourceTree = "<group>"; };
+		B2E18E091E36037200BC13B9 /* PixivUserInners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivUserInners.swift; sourceTree = "<group>"; };
+		B2ED75CE1E38F66700291877 /* RMTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMTextView.swift; sourceTree = "<group>"; };
+		B2F3FF0B1E0FECB700E6C221 /* PixivViewBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivViewBaseController.swift; sourceTree = "<group>"; };
+		B2F3FF0E1E0FF70400E6C221 /* PixivCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivCommentViewController.swift; sourceTree = "<group>"; };
+		B2F6A6AA1E7917E40085B065 /* PixivPageCountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivPageCountView.swift; sourceTree = "<group>"; };
+		B2F70A921E2A746000F99B5E /* PixivAlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivAlbumViewController.swift; sourceTree = "<group>"; };
+		B2F70A941E2A74F300F99B5E /* TestAlbumInner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAlbumInner.swift; sourceTree = "<group>"; };
+		B2F70A961E2A75F200F99B5E /* PixivAlbumAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivAlbumAPI.swift; sourceTree = "<group>"; };
+		B2F70A9B1E2A874000F99B5E /* PixivAlbumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivAlbumsViewController.swift; sourceTree = "<group>"; };
+		B2F70A9D1E2A875900F99B5E /* PixivAlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivAlbumCell.swift; sourceTree = "<group>"; };
+		B2F70A9F1E2B35D000F99B5E /* PixivAlbumData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivAlbumData.swift; sourceTree = "<group>"; };
+		B2F769BC1E82100E00E0DE2A /* ProcyonAccountEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonAccountEditViewController.swift; sourceTree = "<group>"; };
+		B2F9B9D21E20FE30000511F6 /* PixivNovelCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivNovelCommentViewController.swift; sourceTree = "<group>"; };
+		B2F9B9DD1E226B43000511F6 /* PixivUgoiraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivUgoiraViewController.swift; sourceTree = "<group>"; };
+		B2F9B9E01E2272B8000511F6 /* RMScrollableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMScrollableImageView.swift; sourceTree = "<group>"; };
+		B2F9B9E21E2273F6000511F6 /* PixivLaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivLaunchViewController.swift; sourceTree = "<group>"; };
+		B2F9B9E61E227621000511F6 /* PixivUserDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivUserDataViewController.swift; sourceTree = "<group>"; };
+		B2F9B9E81E2277AB000511F6 /* PixivSearchHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivSearchHistoryViewController.swift; sourceTree = "<group>"; };
+		B2FE12351E0C0FBC00A4FA9C /* PixivImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PixivImageViewController.swift; path = Illust/PixivImageViewController.swift; sourceTree = "<group>"; };
+		B2FE12381E0C170100A4FA9C /* PixivImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivImageViewCell.swift; sourceTree = "<group>"; };
+		B2FE123A1E0D2B6C00A4FA9C /* PixivTextViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivTextViewCell.swift; sourceTree = "<group>"; };
+		B2FE123C1E0D411400A4FA9C /* PixivData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixivData.swift; sourceTree = "<group>"; };
+		B2FEE84A1E866FCA00FBCD68 /* ProcyonFirstCreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcyonFirstCreateAccountViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2521B1E1DFCD47A00C7978F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20D151C1E3F33CD00A63909 /* StoreKit.framework in Frameworks */,
+				B2DA08C21E93289700FB0FC4 /* Zip.framework in Frameworks */,
+				B20D151B1E3F33C200A63909 /* HTML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2000ED21E1884D6008B33DF /* main */ = {
+			isa = PBXGroup;
+			children = (
+				B24DB9EF1E17B4FA00CC1087 /* PixivNovelMainViewController.swift */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		B202E44E1E1A60DA00E5030E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B202E44F1E1A610F00E5030E /* PixivNovelImageViewController.swift */,
+				B2DAE7621E2E16BD005B4DEB /* PixivNovelImageCellViewController.swift */,
+				B2CC277F1E73AC5C00BD9149 /* ImageViewCells */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		B202E4531E1A62F800E5030E /* ImagePage */ = {
+			isa = PBXGroup;
+			children = (
+				B202E4541E1A632400E5030E /* PixivNovelImagePageViewController.swift */,
+				B202E4561E1A639000E5030E /* PixivNovelImagePageCellViewController.swift */,
+			);
+			name = ImagePage;
+			sourceTree = "<group>";
+		};
+		B202E4581E1A67A100E5030E /* etc. */ = {
+			isa = PBXGroup;
+			children = (
+				B202E4591E1A67AF00E5030E /* Inners */,
+				B27AC0B01E20F3B30014005C /* PixivNovelAccountViewControllers.swift */,
+				B2F9B9D21E20FE30000511F6 /* PixivNovelCommentViewController.swift */,
+			);
+			name = etc.;
+			sourceTree = "<group>";
+		};
+		B202E4591E1A67AF00E5030E /* Inners */ = {
+			isa = PBXGroup;
+			children = (
+				B202E45A1E1A67BC00E5030E /* PixivNovelInners.swift */,
+				B27AC0AA1E20F2AB0014005C /* PixivNovelHistoryInner.swift */,
+				B27AC0AC1E20F31B0014005C /* PixivNovelAccountInner.swift */,
+			);
+			name = Inners;
+			sourceTree = "<group>";
+		};
+		B2366A151E0F77F60007ABD4 /* ImagePage */ = {
+			isa = PBXGroup;
+			children = (
+				B2366A161E0F780B0007ABD4 /* PixivImagePageViewController.swift */,
+				B2366A181E0F787E0007ABD4 /* PixivImagePageCellViewController.swift */,
+			);
+			name = ImagePage;
+			sourceTree = "<group>";
+		};
+		B24D1B6A1E1712E800F911FF /* Inners */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB0DAD1E128690004F60C7 /* TestInners.swift */,
+				B2A65E821E15345C004F5761 /* TestAccountInner.swift */,
+				B2A65E8D1E166DA4004F5761 /* TestHistoryInner.swift */,
+				B2F70A941E2A74F300F99B5E /* TestAlbumInner.swift */,
+			);
+			name = Inners;
+			sourceTree = "<group>";
+		};
+		B24D1B6B1E1714D600F911FF /* search */ = {
+			isa = PBXGroup;
+			children = (
+				B24D1B701E17231900F911FF /* PixivSearchSettingViewController.swift */,
+				B24D1B6E1E17161C00F911FF /* PixivSearchInner.swift */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		B24DB9EC1E17B4AF00CC1087 /* Novel */ = {
+			isa = PBXGroup;
+			children = (
+				B27AC0A31E20E1A50014005C /* search */,
+				B2000ED21E1884D6008B33DF /* main */,
+				B202E44E1E1A60DA00E5030E /* Image */,
+				B202E4531E1A62F800E5030E /* ImagePage */,
+				B202E4581E1A67A100E5030E /* etc. */,
+				B24DB9F11E17B54000CC1087 /* Base */,
+			);
+			name = Novel;
+			sourceTree = "<group>";
+		};
+		B24DB9F11E17B54000CC1087 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B2000ED31E1884F0008B33DF /* PixivNovelThumbnailCell.swift */,
+				B24DB9F21E17B56B00CC1087 /* PixivNovelCollectionViewBaseController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		B2521B181DFCD47A00C7978F = {
+			isa = PBXGroup;
+			children = (
+				B2DA08C11E93289700FB0FC4 /* Zip.framework */,
+				B269BA211E0A375D00EFACDD /* HTML.framework */,
+				B2521C601DFCD50100C7978F /* Procyon */,
+				B2521C111DFCD50100C7978F /* Pixiv */,
+				B268217A1E471FC50067633D /* Nico */,
+				B2521BFC1DFCD50100C7978F /* Common */,
+				B2521B361DFCD49B00C7978F /* RMLibs */,
+				B2521B221DFCD47A00C7978F /* Products */,
+				B271B21C1E2BB481004220CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2521B221DFCD47A00C7978F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2521B211DFCD47A00C7978F /* Procyon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2521B361DFCD49B00C7978F /* RMLibs */ = {
+			isa = PBXGroup;
+			children = (
+				B29F35AC1E06840700F96D6A /* RMKit */,
+				B2521B371DFCD49B00C7978F /* ADKit */,
+			);
+			path = RMLibs;
+			sourceTree = "<group>";
+		};
+		B2521B371DFCD49B00C7978F /* ADKit */ = {
+			isa = PBXGroup;
+			children = (
+				B2521B381DFCD49B00C7978F /* ADKit System */,
+				B2521B3B1DFCD49B00C7978F /* ADKit UI */,
+			);
+			path = ADKit;
+			sourceTree = "<group>";
+		};
+		B2521B381DFCD49B00C7978F /* ADKit System */ = {
+			isa = PBXGroup;
+			children = (
+				B2521B391DFCD49B00C7978F /* ADColor.swift */,
+				B2521B3A1DFCD49B00C7978F /* ADConfig.swift */,
+			);
+			path = "ADKit System";
+			sourceTree = "<group>";
+		};
+		B2521B3B1DFCD49B00C7978F /* ADKit UI */ = {
+			isa = PBXGroup;
+			children = (
+				B2521B3C1DFCD49B00C7978F /* ADActivityIndicator.swift */,
+				B275EEC51E2641BF00685E4A /* ADWebViewBaseController.swift */,
+				B2521B3D1DFCD49B00C7978F /* ADDialog.swift */,
+				B2521B3E1DFCD49B00C7978F /* ADButton.swift */,
+				B2521B3F1DFCD49B00C7978F /* ADHomeButton.swift */,
+				B2521B401DFCD49B00C7978F /* ADMainButton.swift */,
+				B2521B411DFCD49B00C7978F /* ADMenu.swift */,
+				B2521B421DFCD49B00C7978F /* ADNoProfile.swift */,
+				B2521B431DFCD49B00C7978F /* ADPageViewController.swift */,
+				B24018B71E7E0FC000854DC0 /* ADDrawerController.swift */,
+				B2521B441DFCD49B00C7978F /* ADRefreshControl.swift */,
+				B2521B451DFCD49B00C7978F /* ADSearchEstimatedView.swift */,
+				B2521B461DFCD49B00C7978F /* ADSetPassMain.storyboard */,
+				B2521B471DFCD49B00C7978F /* ADSetPassViewController.swift */,
+				B2521B481DFCD49B00C7978F /* ADSlider.swift */,
+				B2521B491DFCD49B00C7978F /* ADSnackbar.swift */,
+				B2521B4A1DFCD49B00C7978F /* ADSwitch.swift */,
+				B2521B4B1DFCD49B00C7978F /* ADTextField.swift */,
+				B2521B4C1DFCD49B00C7978F /* ADTip.swift */,
+				B2521B511DFCD49B00C7978F /* ADImageView.swift */,
+				B2521B521DFCD49B00C7978F /* ADLayer.swift */,
+				B2521B531DFCD49B00C7978F /* ADTableViewCell.swift */,
+				B2521B501DFCD49B00C7978F /* ADCollectionViewCell.swift */,
+				B2521B4D1DFCD49B00C7978F /* ADWaitView.swift */,
+				B2521B551DFCD49B00C7978F /* ADHorizontalMenu.swift */,
+				B2521B581DFCD49B00C7978F /* ADTableViewBaseController.swift */,
+				B2521B561DFCD49B00C7978F /* ADNavigationViewController.swift */,
+				B2521B591DFCD49B00C7978F /* ADViewController.swift */,
+				B2521B571DFCD49B00C7978F /* ADSettingViewBaseController.swift */,
+				B2521B4F1DFCD49B00C7978F /* ADCardView.swift */,
+				B2000ED51E18853B008B33DF /* ADIconLabel.swift */,
+				B2CE05D71E7E917600AE9B43 /* ADDrawerViewController.swift */,
+			);
+			path = "ADKit UI";
+			sourceTree = "<group>";
+		};
+		B2521BFC1DFCD50100C7978F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B2A223C91E8C6A0300C1950A /* Localizable.strings */,
+				B2521BFD1DFCD50100C7978F /* Resource */,
+				B2521C001DFCD50100C7978F /* System */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B2521BFD1DFCD50100C7978F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B2521C031DFCD50100C7978F /* Info.plist */,
+				B2521BFE1DFCD50100C7978F /* Assets.xcassets */,
+				B2521BFF1DFCD50100C7978F /* Launch Screen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B2521C001DFCD50100C7978F /* System */ = {
+			isa = PBXGroup;
+			children = (
+				B2521C021DFCD50100C7978F /* BH.h */,
+				B219C9B21DFCD9D2004C5EDA /* System.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		B2521C111DFCD50100C7978F /* Pixiv */ = {
+			isa = PBXGroup;
+			children = (
+				B2521C121DFCD50100C7978F /* Pixiv */,
+				B2521C261DFCD50100C7978F /* ViewControllers */,
+			);
+			path = Pixiv;
+			sourceTree = "<group>";
+		};
+		B2521C121DFCD50100C7978F /* Pixiv */ = {
+			isa = PBXGroup;
+			children = (
+				B2521C191DFCD50100C7978F /* UI */,
+				B2521C131DFCD50100C7978F /* System */,
+			);
+			path = Pixiv;
+			sourceTree = "<group>";
+		};
+		B2521C131DFCD50100C7978F /* System */ = {
+			isa = PBXGroup;
+			children = (
+				B2521C181DFCD50100C7978F /* PixivSystem.swift */,
+				B2521C141DFCD50100C7978F /* PixivAPI.swift */,
+				B2521C151DFCD50100C7978F /* PIxivNovelAPI.swift */,
+				B2B27AB01E1391D10012526D /* PixivInternalAPI.swift */,
+				B202E4511E1A61C700E5030E /* PixivNovelInternalAPI.swift */,
+				B2F70A961E2A75F200F99B5E /* PixivAlbumAPI.swift */,
+				B275EEC31E2637DF00685E4A /* PixivOthorAPI.swift */,
+				B2521C161DFCD50100C7978F /* PixivPost.swift */,
+				B2521C171DFCD50100C7978F /* PixivSaveManager.swift */,
+				B2FE123C1E0D411400A4FA9C /* PixivData.swift */,
+				B24DB9F41E17B5A000CC1087 /* PixivNovelData.swift */,
+				B2072EAF1E17F7B300BE75C3 /* PixivOtherData.swift */,
+				B2F70A9F1E2B35D000F99B5E /* PixivAlbumData.swift */,
+			);
+			name = System;
+			path = Pixiv_System;
+			sourceTree = "<group>";
+		};
+		B2521C191DFCD50100C7978F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B234C1EB1E1F2D4A00C8942B /* PixivHeaderButtonsView.swift */,
+				B2521C1D1DFCD50100C7978F /* PixivFollowUserView.swift */,
+				B2521C1B1DFCD50100C7978F /* PixivAccountView.swift */,
+				B2F6A6AA1E7917E40085B065 /* PixivPageCountView.swift */,
+				B2521C1E1DFCD50100C7978F /* PixivExtraView.swift */,
+				B2521C211DFCD50100C7978F /* PixiVisionView.swift */,
+				B2521C251DFCD50100C7978F /* PixivUgoiraView.swift */,
+				B22A3A7F1E0EA0D3007B4D7C /* PixivImageMenuView.swift */,
+				B288BB2B1E3A495600DA06BF /* PixivRankingDialogInner.swift */,
+				B27AC09F1E20C6110014005C /* PixivNovelSettingView.swift */,
+			);
+			name = UI;
+			path = Pixiv_UI;
+			sourceTree = "<group>";
+		};
+		B2521C261DFCD50100C7978F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2F3FF101E10016C00E6C221 /* Work */,
+				B24DB9EC1E17B4AF00CC1087 /* Novel */,
+				B26C256B1E11173300392251 /* User */,
+				B27AC09C1E20C56C0014005C /* Othor */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B2521C601DFCD50100C7978F /* Procyon */ = {
+			isa = PBXGroup;
+			children = (
+				B291C1E11E834766002CD8C1 /* First */,
+				B2521C611DFCD50100C7978F /* Procyon */,
+				B2521C651DFCD50100C7978F /* ViewController */,
+			);
+			path = Procyon;
+			sourceTree = "<group>";
+		};
+		B2521C611DFCD50100C7978F /* Procyon */ = {
+			isa = PBXGroup;
+			children = (
+				B2521C621DFCD50100C7978F /* System */,
+				B2521C641DFCD50100C7978F /* UI */,
+			);
+			path = Procyon;
+			sourceTree = "<group>";
+		};
+		B2521C621DFCD50100C7978F /* System */ = {
+			isa = PBXGroup;
+			children = (
+				B2521C631DFCD50100C7978F /* ProcyonSystem.swift */,
+			);
+			name = System;
+			path = Procyon_System;
+			sourceTree = "<group>";
+		};
+		B2521C641DFCD50100C7978F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI;
+			path = Procyon_UI;
+			sourceTree = "<group>";
+		};
+		B2521C651DFCD50100C7978F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B2521C6B1DFCD50100C7978F /* ProcyonMain.storyboard */,
+				B2521C691DFCD50100C7978F /* ProcyonLuanch.storyboard */,
+				B2F769BC1E82100E00E0DE2A /* ProcyonAccountEditViewController.swift */,
+				B2521C661DFCD50100C7978F /* ProcyonAccountSettingViewController.swift */,
+				B2521C6A1DFCD50100C7978F /* ProcyonLuanchViewController.swift */,
+				B2521C6C1DFCD50100C7978F /* ProcyonMainViewController.swift */,
+				B2521C6D1DFCD50100C7978F /* ProcyonPassCodeWindow.swift */,
+				B2521C6E1DFCD50100C7978F /* ProcyonSettingViewController.swift */,
+				B28E3CC51E34964800817CB8 /* ProcyonDeveloperViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B268217A1E471FC50067633D /* Nico */ = {
+			isa = PBXGroup;
+			children = (
+				B268217B1E4720AB0067633D /* Base */,
+			);
+			name = Nico;
+			path = Procyon;
+			sourceTree = "<group>";
+		};
+		B268217B1E4720AB0067633D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B268217C1E4720C30067633D /* NicoBaseCollectionViewController.swift */,
+				B2D0C3011E47F19B003DFC0F /* NicoSeigaThumbnailCell.swift */,
+				B268217E1E4721920067633D /* NicoAPI.swift */,
+				B2D0C2FD1E4756BB003DFC0F /* NicoData.swift */,
+				B2D0C2FF1E47F076003DFC0F /* NicoTestViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		B26C256B1E11173300392251 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B26C256C1E11175A00392251 /* PixivUserViewController.swift */,
+				B2E18E081E36036300BC13B9 /* etc. */,
+				B2E18E011E35F53300BC13B9 /* Base */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		B271B21C1E2BB481004220CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B271B21D1E2BB481004220CB /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B27AC09C1E20C56C0014005C /* Othor */ = {
+			isa = PBXGroup;
+			children = (
+				B27AC09D1E20C5C10014005C /* BaseViewControllers */,
+				B27AC09E1E20C5D90014005C /* setting */,
+				B2F9B9E81E2277AB000511F6 /* PixivSearchHistoryViewController.swift */,
+				B2F9B9E21E2273F6000511F6 /* PixivLaunchViewController.swift */,
+				B24018B91E7E10F000854DC0 /* PixivDrawerViewController.swift */,
+				B24D1B6C1E17154300F911FF /* PixivSearchViewController.swift */,
+				B26821801E4735CA0067633D /* PixivWebViewControllers.swift */,
+			);
+			name = Othor;
+			sourceTree = "<group>";
+		};
+		B27AC09D1E20C5C10014005C /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2521C2D1DFCD50100C7978F /* PixivWebViewBaseController.swift */,
+				B2366A1A1E0FAC820007ABD4 /* PixivPageViewBaseController.swift */,
+				B2F3FF0B1E0FECB700E6C221 /* PixivViewBaseController.swift */,
+				B2A8ECFD1E6FE44700E2C6EE /* PixivPageBaseViewController.swift */,
+			);
+			name = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		B27AC09E1E20C5D90014005C /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				B2BAF8951E24B58C006E1492 /* account */,
+				B2521C5B1DFCD50100C7978F /* PixivSettingViewController.swift */,
+				B2521C5C1DFCD50100C7978F /* PixivTagOffViewController.swift */,
+				B2521C5E1DFCD50100C7978F /* PixivUserOffViewController.swift */,
+			);
+			name = setting;
+			sourceTree = "<group>";
+		};
+		B27AC0A31E20E1A50014005C /* search */ = {
+			isa = PBXGroup;
+			children = (
+				B27AC0A61E20EB360014005C /* PixivNovelSearchSettingViewController.swift */,
+				B27AC0A81E20EBC10014005C /* PixivNovelSearchInner.swift */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		B291C1E11E834766002CD8C1 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				B291C1E21E8347D7002CD8C1 /* ProcyonTutorialViewController.swift */,
+				B2A7633C1E85DB69004D6F96 /* ProcyonFirstLoginedViewController.swift */,
+				B2A7633E1E865174004D6F96 /* ProcyonFirstNoAccountsViewController.swift */,
+				B2A763401E865B71004D6F96 /* ProcyonFirstLoginViewController.swift */,
+				B2FEE84A1E866FCA00FBCD68 /* ProcyonFirstCreateAccountViewController.swift */,
+			);
+			name = First;
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B29F35AC1E06840700F96D6A /* RMKit */ = {
+			isa = PBXGroup;
+			children = (
+				B29F35AD1E06840700F96D6A /* Base */,
+				B29F35B71E06840700F96D6A /* contents */,
+				B29F35C61E06840700F96D6A /* lib */,
+				B29F35CB1E06840700F96D6A /* RMKit System */,
+				B29F35D51E06840700F96D6A /* RMKit UI */,
+			);
+			path = RMKit;
+			sourceTree = "<group>";
+		};
+		B29F35AD1E06840700F96D6A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B2BAF8931E24ADF3006E1492 /* App.swift */,
+				B29F35AE1E06840700F96D6A /* AppColor.swift */,
+				B29F35AF1E06840700F96D6A /* AppDelegate.swift */,
+				B29F35B01E06840700F96D6A /* ClipBoard.swift */,
+				B29F35B11E06840700F96D6A /* Extensions.swift */,
+				B29F35B21E06840700F96D6A /* Font.swift */,
+				B29F35B31E06840700F96D6A /* GlobalFunctions.swift */,
+				B29F35B41E06840700F96D6A /* GlobalVariables.swift */,
+				B29F35B51E06840700F96D6A /* Operators.swift */,
+				B29F35B61E06840700F96D6A /* UIAppearance.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B29F35B71E06840700F96D6A /* contents */ = {
+			isa = PBXGroup;
+			children = (
+				B29F35B81E06840700F96D6A /* ionicons.ttf */,
+				B29F35B91E06840700F96D6A /* mi.ttf */,
+				B29F35BA1E06840700F96D6A /* Roboto-Black.ttf */,
+				B29F35BB1E06840700F96D6A /* Roboto-BlackItalic.ttf */,
+				B29F35BC1E06840700F96D6A /* Roboto-Bold.ttf */,
+				B29F35BD1E06840700F96D6A /* Roboto-BoldItalic.ttf */,
+				B29F35BE1E06840700F96D6A /* Roboto-Italic.ttf */,
+				B29F35BF1E06840700F96D6A /* Roboto-Light.ttf */,
+				B29F35C01E06840700F96D6A /* Roboto-LightItalic.ttf */,
+				B29F35C11E06840700F96D6A /* Roboto-Medium.ttf */,
+				B29F35C21E06840700F96D6A /* Roboto-MediumItalic.ttf */,
+				B29F35C31E06840700F96D6A /* Roboto-Regular.ttf */,
+				B29F35C41E06840700F96D6A /* Roboto-Thin.ttf */,
+				B29F35C51E06840700F96D6A /* Roboto-ThinItalic.ttf */,
+			);
+			path = contents;
+			sourceTree = "<group>";
+		};
+		B29F35C61E06840700F96D6A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B29F35C71E06840700F96D6A /* JSON.swift */,
+				B29F35C81E06840700F96D6A /* Regex.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B29F35CB1E06840700F96D6A /* RMKit System */ = {
+			isa = PBXGroup;
+			children = (
+				B29F35CC1E06840700F96D6A /* RMAudioManager.swift */,
+				B29F35CD1E06840700F96D6A /* RMCache.swift */,
+				B29F35CE1E06840700F96D6A /* RMDevice.swift */,
+				B29F35CF1E06840700F96D6A /* RMFileManager.swift */,
+				B29F35D01E06840700F96D6A /* RMInfo.swift */,
+				B29F35D11E06840700F96D6A /* RMNet.swift */,
+				B29F35D21E06840700F96D6A /* RMRequest.swift */,
+				B29F35D31E06840700F96D6A /* RMSystem.swift */,
+				B29F35D41E06840700F96D6A /* RMTimer.swift */,
+				B2A65E871E160AD1004F5761 /* RMRunCounter.swift */,
+				B2154FED1E177D2C00AD8DC8 /* RMDate.swift */,
+				B21E3E6A1E1E125D00A78628 /* RMURL.swift */,
+				B271B21A1E2BA4F8004220CB /* RMStoreManager.swift */,
+				B291C2081E839A06002CD8C1 /* RMAction.swift */,
+				B263BE9F1E93422400BC42A3 /* RMKeyCommand.swift */,
+			);
+			path = "RMKit System";
+			sourceTree = "<group>";
+		};
+		B29F35D51E06840700F96D6A /* RMKit UI */ = {
+			isa = PBXGroup;
+			children = (
+				B29F35D61E06840700F96D6A /* RMCameraView.swift */,
+				B29F35D71E06840700F96D6A /* RMDocumentController.swift */,
+				B29F35D81E06840700F96D6A /* RMImagePicker.swift */,
+				B29F35D91E06840700F96D6A /* RMMailSender.swift */,
+				B29F35DA1E06840700F96D6A /* RMQRReadView.swift */,
+				B29F35DB1E06840700F96D6A /* RMShare.swift */,
+				B29F35DC1E06840700F96D6A /* RMUIs.swift */,
+				B29F35DD1E06840700F96D6A /* RMViewController.swift */,
+				B27AC0A11E20C8B70014005C /* RMBluerBlur.swift */,
+				B2F9B9E01E2272B8000511F6 /* RMScrollableImageView.swift */,
+				B2ED75CE1E38F66700291877 /* RMTextView.swift */,
+				B2A5E7AE1E8267A30092F60D /* RMWebView.swift */,
+			);
+			path = "RMKit UI";
+			sourceTree = "<group>";
+		};
+		B2AB0DA31E112D3E004F60C7 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB0DA61E112DB4004F60C7 /* PixivMainViewController.swift */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		B2BAF8951E24B58C006E1492 /* account */ = {
+			isa = PBXGroup;
+			children = (
+				B277375F1E24D0E400DA9DD5 /* TestAccountMain.storyboard */,
+				B2BAF8961E24B59E006E1492 /* TestAccountSettingViewController.swift */,
+				B2BAF8981E24CED1006E1492 /* TestAccountWebViewController.swift */,
+				B27737611E24D41000DA9DD5 /* TestAccountChangeViewController.swift */,
+			);
+			name = account;
+			sourceTree = "<group>";
+		};
+		B2CC277F1E73AC5C00BD9149 /* ImageViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B2CC27801E73AE8B00BD9149 /* PixivNovelSeriesCell.swift */,
+			);
+			name = ImageViewCells;
+			sourceTree = "<group>";
+		};
+		B2CCB3E61E7278B300A03F53 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B2366A111E0EC4090007ABD4 /* PixivHeaderView.swift */,
+				B2707B2E1E724673007FED3F /* PixivCardCellBase.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		B2E18E011E35F53300BC13B9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B2E18E021E35F55700BC13B9 /* PixivUserCollectionViewBaseController.swift */,
+				B2E18E051E35F7E200BC13B9 /* PixivUserThumbnailCell.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		B2E18E081E36036300BC13B9 /* etc. */ = {
+			isa = PBXGroup;
+			children = (
+				B2F9B9E61E227621000511F6 /* PixivUserDataViewController.swift */,
+				B2E18E091E36037200BC13B9 /* PixivUserInners.swift */,
+				B26EEC8A1E364EE000A555D1 /* PixivUserViewControllers.swift */,
+			);
+			name = etc.;
+			sourceTree = "<group>";
+		};
+		B2F3FF0A1E0FEC5800E6C221 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB0DAB1E1203BB004F60C7 /* PixivWorkThumbnailCell.swift */,
+				B2AB0DA81E112FF9004F60C7 /* PixivCollectionViewBaseController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		B2F3FF0D1E0FF6E000E6C221 /* etc. */ = {
+			isa = PBXGroup;
+			children = (
+				B24D1B6A1E1712E800F911FF /* Inners */,
+				B24D1B681E1712C900F911FF /* PixivRelatedWorksViewController.swift */,
+				B2F3FF0E1E0FF70400E6C221 /* PixivCommentViewController.swift */,
+				B2A65E8B1E163268004F5761 /* PixivAccontViewControllers.swift */,
+				B297EDC11E1BC9D600588157 /* PixivMyWorksViewController.swift */,
+				B29209271E417B75001DBF31 /* PixivPostViewController.swift */,
+			);
+			name = etc.;
+			sourceTree = "<group>";
+		};
+		B2F3FF101E10016C00E6C221 /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				B2F70A981E2A86E500F99B5E /* Album */,
+				B2F9B9DC1E226B17000511F6 /* Ugoira */,
+				B2AB0DA31E112D3E004F60C7 /* main */,
+				B2F3FF0A1E0FEC5800E6C221 /* Base */,
+				B2FE12371E0C16D900A4FA9C /* Image */,
+				B2366A151E0F77F60007ABD4 /* ImagePage */,
+				B24D1B6B1E1714D600F911FF /* search */,
+				B2F3FF0D1E0FF6E000E6C221 /* etc. */,
+			);
+			name = Work;
+			sourceTree = "<group>";
+		};
+		B2F3FF111E1002C400E6C221 /* ImageViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B2CCB3E61E7278B300A03F53 /* Base */,
+				B2FE12381E0C170100A4FA9C /* PixivImageViewCell.swift */,
+				B2CCB3E81E727D2200A03F53 /* PixivRelatedWorksCell.swift */,
+				B2FE123A1E0D2B6C00A4FA9C /* PixivTextViewCell.swift */,
+				B29562991E0E4CA600D7F273 /* PixivUserViewCell.swift */,
+				B22A3A811E0EB2EB007B4D7C /* PixivCommentViewCell.swift */,
+				B2366A131E0EC7440007ABD4 /* PixivButtonCell.swift */,
+			);
+			name = ImageViewCells;
+			sourceTree = "<group>";
+		};
+		B2F70A981E2A86E500F99B5E /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				B2F70A921E2A746000F99B5E /* PixivAlbumViewController.swift */,
+				B2F70A9B1E2A874000F99B5E /* PixivAlbumsViewController.swift */,
+				B2F70A9D1E2A875900F99B5E /* PixivAlbumCell.swift */,
+			);
+			name = Album;
+			sourceTree = "<group>";
+		};
+		B2F9B9DC1E226B17000511F6 /* Ugoira */ = {
+			isa = PBXGroup;
+			children = (
+				B2F9B9DD1E226B43000511F6 /* PixivUgoiraViewController.swift */,
+			);
+			name = Ugoira;
+			sourceTree = "<group>";
+		};
+		B2FE12371E0C16D900A4FA9C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B2FE12351E0C0FBC00A4FA9C /* PixivImageViewController.swift */,
+				B2DAE7601E2DF489005B4DEB /* PixivImageCellViewController.swift */,
+				B2F3FF111E1002C400E6C221 /* ImageViewCells */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2521B201DFCD47A00C7978F /* Procyon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2521B331DFCD47A00C7978F /* Build configuration list for PBXNativeTarget "Procyon" */;
+			buildPhases = (
+				B2521B1D1DFCD47A00C7978F /* Sources */,
+				B2521B1E1DFCD47A00C7978F /* Frameworks */,
+				B2521B1F1DFCD47A00C7978F /* Resources */,
+				B2985CDA1E0A762C00939993 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Procyon;
+			productName = Procyon;
+			productReference = B2521B211DFCD47A00C7978F /* Procyon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2521B191DFCD47A00C7978F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yuki;
+				TargetAttributes = {
+					B2521B201DFCD47A00C7978F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Y475J6372H;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B2521B1C1DFCD47A00C7978F /* Build configuration list for PBXProject "Procyon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				Base,
+				ko,
+				en,
+			);
+			mainGroup = B2521B181DFCD47A00C7978F;
+			productRefGroup = B2521B221DFCD47A00C7978F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2521B201DFCD47A00C7978F /* Procyon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2521B1F1DFCD47A00C7978F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29F35EC1E06840800F96D6A /* Roboto-BoldItalic.ttf in Resources */,
+				B29F35ED1E06840800F96D6A /* Roboto-Italic.ttf in Resources */,
+				B29F35EF1E06840800F96D6A /* Roboto-LightItalic.ttf in Resources */,
+				B27737601E24D0E400DA9DD5 /* TestAccountMain.storyboard in Resources */,
+				B29F35E81E06840700F96D6A /* mi.ttf in Resources */,
+				B29F35F41E06840800F96D6A /* Roboto-ThinItalic.ttf in Resources */,
+				B2521BBB1DFCD49B00C7978F /* ADSetPassMain.storyboard in Resources */,
+				B2521CC41DFCD50100C7978F /* ProcyonLuanch.storyboard in Resources */,
+				B29F35F31E06840800F96D6A /* Roboto-Thin.ttf in Resources */,
+				B2A223C71E8C6A0300C1950A /* Localizable.strings in Resources */,
+				B2521C701DFCD50100C7978F /* Launch Screen.storyboard in Resources */,
+				B29F35EA1E06840800F96D6A /* Roboto-BlackItalic.ttf in Resources */,
+				B29F35EE1E06840800F96D6A /* Roboto-Light.ttf in Resources */,
+				B29F35E71E06840700F96D6A /* ionicons.ttf in Resources */,
+				B2521CC61DFCD50100C7978F /* ProcyonMain.storyboard in Resources */,
+				B29F35E91E06840800F96D6A /* Roboto-Black.ttf in Resources */,
+				B29F35F01E06840800F96D6A /* Roboto-Medium.ttf in Resources */,
+				B29F35F21E06840800F96D6A /* Roboto-Regular.ttf in Resources */,
+				B2521C6F1DFCD50100C7978F /* Assets.xcassets in Resources */,
+				B29F35EB1E06840800F96D6A /* Roboto-Bold.ttf in Resources */,
+				B29F35F11E06840800F96D6A /* Roboto-MediumItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2521B1D1DFCD47A00C7978F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2521BC51DFCD49B00C7978F /* ADImageView.swift in Sources */,
+				B2A763411E865B71004D6F96 /* ProcyonFirstLoginViewController.swift in Sources */,
+				B2521BCC1DFCD49B00C7978F /* ADViewController.swift in Sources */,
+				B2521C861DFCD50100C7978F /* PixivExtraView.swift in Sources */,
+				B26EEC8B1E364EE000A555D1 /* PixivUserViewControllers.swift in Sources */,
+				B29F35E11E06840700F96D6A /* Extensions.swift in Sources */,
+				B2521CC91DFCD50100C7978F /* ProcyonSettingViewController.swift in Sources */,
+				B2F9B9E11E2272B8000511F6 /* RMScrollableImageView.swift in Sources */,
+				B26C256D1E11175A00392251 /* PixivUserViewController.swift in Sources */,
+				B2521C7E1DFCD50100C7978F /* PIxivNovelAPI.swift in Sources */,
+				B297EDC21E1BC9D600588157 /* PixivMyWorksViewController.swift in Sources */,
+				B2CE05D81E7E917600AE9B43 /* ADDrawerViewController.swift in Sources */,
+				B2521CBE1DFCD50100C7978F /* PixivUserOffViewController.swift in Sources */,
+				B2E18E031E35F55700BC13B9 /* PixivUserCollectionViewBaseController.swift in Sources */,
+				B2521BC11DFCD49B00C7978F /* ADTip.swift in Sources */,
+				B2F9B9E91E2277AB000511F6 /* PixivSearchHistoryViewController.swift in Sources */,
+				B2FE123B1E0D2B6C00A4FA9C /* PixivTextViewCell.swift in Sources */,
+				B24DB9F01E17B4FA00CC1087 /* PixivNovelMainViewController.swift in Sources */,
+				B2B27AB11E1391D10012526D /* PixivInternalAPI.swift in Sources */,
+				B291C2091E839A06002CD8C1 /* RMAction.swift in Sources */,
+				B2521CC71DFCD50100C7978F /* ProcyonMainViewController.swift in Sources */,
+				B2521BBF1DFCD49B00C7978F /* ADSwitch.swift in Sources */,
+				B2521BCA1DFCD49B00C7978F /* ADSettingViewBaseController.swift in Sources */,
+				B2D0C2FE1E4756BB003DFC0F /* NicoData.swift in Sources */,
+				B2F9B9D31E20FE30000511F6 /* PixivNovelCommentViewController.swift in Sources */,
+				B2AB0DAE1E128690004F60C7 /* TestInners.swift in Sources */,
+				B29F35E61E06840700F96D6A /* UIAppearance.swift in Sources */,
+				B24DB9F51E17B5A000CC1087 /* PixivNovelData.swift in Sources */,
+				B29F35FA1E06840800F96D6A /* RMFileManager.swift in Sources */,
+				B2CCB3E91E727D2200A03F53 /* PixivRelatedWorksCell.swift in Sources */,
+				B27AC0A01E20C6110014005C /* PixivNovelSettingView.swift in Sources */,
+				B2F70A9C1E2A874000F99B5E /* PixivAlbumsViewController.swift in Sources */,
+				B2D0C3001E47F076003DFC0F /* NicoTestViewController.swift in Sources */,
+				B2521BB31DFCD49B00C7978F /* ADButton.swift in Sources */,
+				B202E4551E1A632400E5030E /* PixivNovelImagePageViewController.swift in Sources */,
+				B29F35E41E06840700F96D6A /* GlobalVariables.swift in Sources */,
+				B2D0C3021E47F19B003DFC0F /* NicoSeigaThumbnailCell.swift in Sources */,
+				B2AB0DA71E112DB4004F60C7 /* PixivMainViewController.swift in Sources */,
+				B27AC0AD1E20F31B0014005C /* PixivNovelAccountInner.swift in Sources */,
+				B2F769BD1E82100E00E0DE2A /* ProcyonAccountEditViewController.swift in Sources */,
+				B2521CBC1DFCD50100C7978F /* PixivTagOffViewController.swift in Sources */,
+				B2521BB21DFCD49B00C7978F /* ADDialog.swift in Sources */,
+				B26821811E4735CA0067633D /* PixivWebViewControllers.swift in Sources */,
+				B2521BB81DFCD49B00C7978F /* ADPageViewController.swift in Sources */,
+				B2E18E061E35F7E200BC13B9 /* PixivUserThumbnailCell.swift in Sources */,
+				B2F9B9E71E227621000511F6 /* PixivUserDataViewController.swift in Sources */,
+				B2FE12361E0C0FBC00A4FA9C /* PixivImageViewController.swift in Sources */,
+				B234C1EC1E1F2D4A00C8942B /* PixivHeaderButtonsView.swift in Sources */,
+				B29F36001E06840800F96D6A /* RMCameraView.swift in Sources */,
+				B2BAF8971E24B59E006E1492 /* TestAccountSettingViewController.swift in Sources */,
+				B2F9B9E31E2273F6000511F6 /* PixivLaunchViewController.swift in Sources */,
+				B24018BA1E7E10F000854DC0 /* PixivDrawerViewController.swift in Sources */,
+				B24D1B6F1E17161C00F911FF /* PixivSearchInner.swift in Sources */,
+				B2A65E831E15345C004F5761 /* TestAccountInner.swift in Sources */,
+				B27AC0A21E20C8B70014005C /* RMBluerBlur.swift in Sources */,
+				B29F36051E06840800F96D6A /* RMShare.swift in Sources */,
+				B2521C8D1DFCD50100C7978F /* PixivUgoiraView.swift in Sources */,
+				B27AC0A91E20EBC10014005C /* PixivNovelSearchInner.swift in Sources */,
+				B2521BBC1DFCD49B00C7978F /* ADSetPassViewController.swift in Sources */,
+				B2521C801DFCD50100C7978F /* PixivSaveManager.swift in Sources */,
+				B2521C7F1DFCD50100C7978F /* PixivPost.swift in Sources */,
+				B2521CC51DFCD50100C7978F /* ProcyonLuanchViewController.swift in Sources */,
+				B2521BBD1DFCD49B00C7978F /* ADSlider.swift in Sources */,
+				B202E4521E1A61C700E5030E /* PixivNovelInternalAPI.swift in Sources */,
+				B2521BC91DFCD49B00C7978F /* ADNavigationViewController.swift in Sources */,
+				B2F6A6AB1E7917E40085B065 /* PixivPageCountView.swift in Sources */,
+				B27AC0B11E20F3B30014005C /* PixivNovelAccountViewControllers.swift in Sources */,
+				B2A65E8C1E163268004F5761 /* PixivAccontViewControllers.swift in Sources */,
+				B2072EB01E17F7B300BE75C3 /* PixivOtherData.swift in Sources */,
+				B268217F1E4721920067633D /* NicoAPI.swift in Sources */,
+				B2521BC31DFCD49B00C7978F /* ADCardView.swift in Sources */,
+				B29F35F61E06840800F96D6A /* Regex.swift in Sources */,
+				B2521BBE1DFCD49B00C7978F /* ADSnackbar.swift in Sources */,
+				B291C1E31E8347D7002CD8C1 /* ProcyonTutorialViewController.swift in Sources */,
+				B22A3A821E0EB2EB007B4D7C /* PixivCommentViewCell.swift in Sources */,
+				B2521C851DFCD50100C7978F /* PixivFollowUserView.swift in Sources */,
+				B2E18E0A1E36037200BC13B9 /* PixivUserInners.swift in Sources */,
+				B268217D1E4720C30067633D /* NicoBaseCollectionViewController.swift in Sources */,
+				B2521BC61DFCD49B00C7978F /* ADLayer.swift in Sources */,
+				B29209281E417B75001DBF31 /* PixivPostViewController.swift in Sources */,
+				B2521BC81DFCD49B00C7978F /* ADHorizontalMenu.swift in Sources */,
+				B2CC27811E73AE8B00BD9149 /* PixivNovelSeriesCell.swift in Sources */,
+				B2521BC21DFCD49B00C7978F /* ADWaitView.swift in Sources */,
+				B2366A171E0F780B0007ABD4 /* PixivImagePageViewController.swift in Sources */,
+				B2521BB71DFCD49B00C7978F /* ADNoProfile.swift in Sources */,
+				B29F35F91E06840800F96D6A /* RMDevice.swift in Sources */,
+				B2521BAF1DFCD49B00C7978F /* ADColor.swift in Sources */,
+				B295629A1E0E4CA600D7F273 /* PixivUserViewCell.swift in Sources */,
+				B29F35E51E06840700F96D6A /* Operators.swift in Sources */,
+				B2521BB51DFCD49B00C7978F /* ADMainButton.swift in Sources */,
+				B29F35FF1E06840800F96D6A /* RMTimer.swift in Sources */,
+				B2521C891DFCD50100C7978F /* PixiVisionView.swift in Sources */,
+				B2521C7D1DFCD50100C7978F /* PixivAPI.swift in Sources */,
+				B2BAF8941E24ADF3006E1492 /* App.swift in Sources */,
+				B2BAF8991E24CED1006E1492 /* TestAccountWebViewController.swift in Sources */,
+				B202E4501E1A610F00E5030E /* PixivNovelImageViewController.swift in Sources */,
+				B219C9B31DFCD9D2004C5EDA /* System.swift in Sources */,
+				B2521BC41DFCD49B00C7978F /* ADCollectionViewCell.swift in Sources */,
+				B2A5E7AF1E8267A30092F60D /* RMWebView.swift in Sources */,
+				B24DB9F31E17B56B00CC1087 /* PixivNovelCollectionViewBaseController.swift in Sources */,
+				B27737621E24D41000DA9DD5 /* TestAccountChangeViewController.swift in Sources */,
+				B2521C811DFCD50100C7978F /* PixivSystem.swift in Sources */,
+				B2F70A9E1E2A875900F99B5E /* PixivAlbumCell.swift in Sources */,
+				B29F35E21E06840700F96D6A /* Font.swift in Sources */,
+				B22A3A801E0EA0D3007B4D7C /* PixivImageMenuView.swift in Sources */,
+				B2366A141E0EC7440007ABD4 /* PixivButtonCell.swift in Sources */,
+				B2521BB91DFCD49B00C7978F /* ADRefreshControl.swift in Sources */,
+				B275EEC41E2637DF00685E4A /* PixivOthorAPI.swift in Sources */,
+				B29F35E01E06840700F96D6A /* ClipBoard.swift in Sources */,
+				B275EEC61E2641BF00685E4A /* ADWebViewBaseController.swift in Sources */,
+				B2000ED61E18853B008B33DF /* ADIconLabel.swift in Sources */,
+				B29F36061E06840800F96D6A /* RMUIs.swift in Sources */,
+				B2DAE7611E2DF489005B4DEB /* PixivImageCellViewController.swift in Sources */,
+				B27AC0AB1E20F2AB0014005C /* PixivNovelHistoryInner.swift in Sources */,
+				B27AC0A71E20EB360014005C /* PixivNovelSearchSettingViewController.swift in Sources */,
+				B2F70AA01E2B35D000F99B5E /* PixivAlbumData.swift in Sources */,
+				B29F35E31E06840700F96D6A /* GlobalFunctions.swift in Sources */,
+				B2F9B9DE1E226B43000511F6 /* PixivUgoiraViewController.swift in Sources */,
+				B2521CC81DFCD50100C7978F /* ProcyonPassCodeWindow.swift in Sources */,
+				B2521CBB1DFCD50100C7978F /* PixivSettingViewController.swift in Sources */,
+				B263BEA01E93422400BC42A3 /* RMKeyCommand.swift in Sources */,
+				B2366A1B1E0FAC820007ABD4 /* PixivPageViewBaseController.swift in Sources */,
+				B29F36021E06840800F96D6A /* RMImagePicker.swift in Sources */,
+				B2521BB01DFCD49B00C7978F /* ADConfig.swift in Sources */,
+				B2FE123D1E0D411400A4FA9C /* PixivData.swift in Sources */,
+				B29F36071E06840800F96D6A /* RMViewController.swift in Sources */,
+				B24D1B6D1E17154300F911FF /* PixivSearchViewController.swift in Sources */,
+				B202E4571E1A639000E5030E /* PixivNovelImagePageCellViewController.swift in Sources */,
+				B24D1B711E17231900F911FF /* PixivSearchSettingViewController.swift in Sources */,
+				B2521BB11DFCD49B00C7978F /* ADActivityIndicator.swift in Sources */,
+				B2521BC71DFCD49B00C7978F /* ADTableViewCell.swift in Sources */,
+				B29F35DF1E06840700F96D6A /* AppDelegate.swift in Sources */,
+				B29F35FC1E06840800F96D6A /* RMNet.swift in Sources */,
+				B2521C831DFCD50100C7978F /* PixivAccountView.swift in Sources */,
+				B29F35F81E06840800F96D6A /* RMCache.swift in Sources */,
+				B2A7633D1E85DB69004D6F96 /* ProcyonFirstLoginedViewController.swift in Sources */,
+				B2AB0DA91E112FF9004F60C7 /* PixivCollectionViewBaseController.swift in Sources */,
+				B29F36041E06840800F96D6A /* RMQRReadView.swift in Sources */,
+				B2521BCB1DFCD49B00C7978F /* ADTableViewBaseController.swift in Sources */,
+				B29F35FB1E06840800F96D6A /* RMInfo.swift in Sources */,
+				B29F35F71E06840800F96D6A /* RMAudioManager.swift in Sources */,
+				B2366A191E0F787E0007ABD4 /* PixivImagePageCellViewController.swift in Sources */,
+				B2F3FF0C1E0FECB700E6C221 /* PixivViewBaseController.swift in Sources */,
+				B2521BC01DFCD49B00C7978F /* ADTextField.swift in Sources */,
+				B2A65E8E1E166DA4004F5761 /* TestHistoryInner.swift in Sources */,
+				B24D1B691E1712C900F911FF /* PixivRelatedWorksViewController.swift in Sources */,
+				B2521C921DFCD50100C7978F /* PixivWebViewBaseController.swift in Sources */,
+				B2521CC11DFCD50100C7978F /* ProcyonAccountSettingViewController.swift in Sources */,
+				B29F36031E06840800F96D6A /* RMMailSender.swift in Sources */,
+				B2A65E881E160AD1004F5761 /* RMRunCounter.swift in Sources */,
+				B29F35FD1E06840800F96D6A /* RMRequest.swift in Sources */,
+				B2521CC01DFCD50100C7978F /* ProcyonSystem.swift in Sources */,
+				B2521BB61DFCD49B00C7978F /* ADMenu.swift in Sources */,
+				B2A8ECFE1E6FE44700E2C6EE /* PixivPageBaseViewController.swift in Sources */,
+				B2AB0DAC1E1203BB004F60C7 /* PixivWorkThumbnailCell.swift in Sources */,
+				B2ED75CF1E38F66700291877 /* RMTextView.swift in Sources */,
+				B2154FEE1E177D2C00AD8DC8 /* RMDate.swift in Sources */,
+				B28E3CC61E34964800817CB8 /* ProcyonDeveloperViewController.swift in Sources */,
+				B271B21B1E2BA4F8004220CB /* RMStoreManager.swift in Sources */,
+				B2A7633F1E865174004D6F96 /* ProcyonFirstNoAccountsViewController.swift in Sources */,
+				B2FEE84B1E866FCA00FBCD68 /* ProcyonFirstCreateAccountViewController.swift in Sources */,
+				B24018B81E7E0FC000854DC0 /* ADDrawerController.swift in Sources */,
+				B29F35FE1E06840800F96D6A /* RMSystem.swift in Sources */,
+				B2F3FF0F1E0FF70400E6C221 /* PixivCommentViewController.swift in Sources */,
+				B2F70A951E2A74F300F99B5E /* TestAlbumInner.swift in Sources */,
+				B29F35F51E06840800F96D6A /* JSON.swift in Sources */,
+				B29F36011E06840800F96D6A /* RMDocumentController.swift in Sources */,
+				B2DAE7631E2E16BD005B4DEB /* PixivNovelImageCellViewController.swift in Sources */,
+				B2FE12391E0C170100A4FA9C /* PixivImageViewCell.swift in Sources */,
+				B2F70A971E2A75F200F99B5E /* PixivAlbumAPI.swift in Sources */,
+				B2707B2F1E724673007FED3F /* PixivCardCellBase.swift in Sources */,
+				B2F70A931E2A746000F99B5E /* PixivAlbumViewController.swift in Sources */,
+				B202E45B1E1A67BC00E5030E /* PixivNovelInners.swift in Sources */,
+				B288BB2C1E3A495600DA06BF /* PixivRankingDialogInner.swift in Sources */,
+				B2000ED41E1884F0008B33DF /* PixivNovelThumbnailCell.swift in Sources */,
+				B29F35DE1E06840700F96D6A /* AppColor.swift in Sources */,
+				B2521BB41DFCD49B00C7978F /* ADHomeButton.swift in Sources */,
+				B2521BBA1DFCD49B00C7978F /* ADSearchEstimatedView.swift in Sources */,
+				B21E3E6B1E1E125D00A78628 /* RMURL.swift in Sources */,
+				B2366A121E0EC4090007ABD4 /* PixivHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2A223C91E8C6A0300C1950A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2A223C81E8C6A0300C1950A /* Base */,
+				B2A223CA1E8C6A0F00C1950A /* ja */,
+				B2A223CB1E8C6A1000C1950A /* ko */,
+				B2A223CC1E8C6A1100C1950A /* en */,
+			);
+			name = Localizable.strings;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2521B311DFCD47A00C7978F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2521B321DFCD47A00C7978F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2521B341DFCD47A00C7978F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y475J6372H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RMLibs/Zip3/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Common/System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuki.pixiloid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2521B351DFCD47A00C7978F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y475J6372H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RMLibs/Zip3/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Common/System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuki.pixiloid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2521B1C1DFCD47A00C7978F /* Build configuration list for PBXProject "Procyon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2521B311DFCD47A00C7978F /* Debug */,
+				B2521B321DFCD47A00C7978F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2521B331DFCD47A00C7978F /* Build configuration list for PBXNativeTarget "Procyon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2521B341DFCD47A00C7978F /* Debug */,
+				B2521B351DFCD47A00C7978F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2521B191DFCD47A00C7978F /* Project object */;
+}

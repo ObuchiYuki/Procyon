@@ -1,0 +1,324 @@
+//==============================
+//global
+"error"="エラー";
+"secound_[secound]"="$0秒";
+"date_[year,month,day]"="$0年$1月$2日";
+"other"="その他";
+"confirm"="確認";
+"select"="選択";
+"done"="完了";
+"search"="検索";
+"cancel"="キャンセル";
+"login_with_[account_name]"="$0 でログインしました。";
+"recommended"="あなたへおすすめ";
+"follower_latest"="フォロー新着";
+"account"="アカウント";
+"loading"="ロード中...";
+"remove?"="削除しますか？";
+"removed"="削除しました。";
+"work_[count]"="$0つの作品";
+"no_illusts"="イラストがありません";
+"block_[user_name]?"="$0をブロック?";
+"back_to_home"="ホームに戻る";
+"search_history"="検索履歴";
+"more_search_history"="もっと検索履歴を見る";
+"back_to_pixiv_home?"="Pixivのメイン画面に戻りますか？";
+"delete_[work_name]"="$0を削除？";
+"id_[id]_illust_is_showing" = "ID: $0のイラストを表示しています。";
+//==============================
+//account_menu
+"view_history"="閲覧履歴";
+"submitted_work"="投稿した作品";
+"submitted_illust"="投稿イラスト";
+"submitted_novel"="投稿小説";
+//==============================
+//history
+"remove_all_history?"="全履歴を削除？";
+"long_press_to_remove_each"="長押しで一つずつ削除できます。";
+"remove_from_view_history?"="[閲覧履歴]から削除?";
+//==============================
+//image_sction
+"image_descriptions_[total_view,total_bookmarks,created_date]"="閲覧: $0 ブックマーク: $1 作成: $2";
+"tag_(long_press_to_dict)"="タグ (長押しで百科事典)";
+"releted_illusts"="関連イラスト";
+"no_releted_illust"="関連イラストはありません";
+"releted_illsts_of_[work_title]"="$0の関連イラスト";
+"view_all"="全て見る";
+"comment"="コメント";
+"comments_view"="コメントビュー";
+"comments_of_[title]"="$0のコメント";
+"no_comments"="コメントがありません";
+"tag_bookmark" = "タグブックマーク";
+//==============================
+//image_menu
+"share"="共有";
+"copy_link"="リンクをコピー";
+"open_in_safari"="Safariで開く";
+"copied"="コピーしました。";
+"save_all_illust"="全画像を保存";
+"save_as_pdf"="PDFとして保存";
+"send_report"="通報";
+"report_[work_title]?"="$0を通報しますか？";
+"reported"="通報しました。";
+"open_in_pixiv_dic"="Pixiv百科で開く";
+"open_in_nico_dic"="ニコニコ大百科で開く";
+"make_hide_tag"="非表示タグを編集";
+"[tag_name]_hided"="$0を非表示にしました。";
+//==============================
+//bookmark
+"bookmark"="ブックマーク";
+"bookmarked"="ブックマークしました。";
+"privete_bookmark"="非公開ブックマーク";
+"private_bookmarked"="非公開ブックマークしました。";
+"remove_bookmark"="ブックマーク解除";
+"bookmark_removede"="解除しました。";
+//==============================
+//follow
+"remove_follow"="解除";
+"follow"="フォロー";
+"follow_[user_name]"="$0をフォロー";
+"followed"="フォローしました。";
+"follow_private_[user_name]"="$0を非公開フォロー";
+"private_followed"="非公開フォローしました。";
+"remove_follow_[user_name]"="$0をフォロー解除";
+"unfollowed" = "フォロー解除しました。";
+//==============================
+//image_page_menu
+"save_image"="保存する";
+"image_saved"="保存しました。";
+"save_to_cameraroll?"="カメラロールに保存?";
+"image_has_not_been_downloaded"="画像の読み込みが終わっていません。";
+//==============================
+//illust_search_setting
+"illust_search_setting"="イラストの検索設定";
+"search_target"="検索方法";
+"title_and_caption"="タイトル、キャプション";
+"partial_match_for_tags"="タグ完全一致";
+"exact_match_for_tags"="タグ部分一致";
+"search_sort ()"="並び順 (一般会員も人気順可能)";
+"date_desc"="新しい順";
+"date_asc"="古い順";
+"popular_desc"="人気順";
+"duration"="検索期間";
+"all_duration"="全期間";
+"within_last_day"="今日";
+"within_last_week"="今週";
+"within_last_month"="今月";
+//==============================
+//novel_search_setting
+"novel_search_setting"="小説の検索設定";
+"text"="テキスト";
+"keyword"="キーワード";
+"search_sort"="並び順";
+//==============================
+//novel_menu
+"copy_novel"="小説をコピー";
+"open_in_externally"="外部で開く";
+"no_series"="シリーズはありません";
+"no_novels"="小説がありません";
+"disply_setting"="表示設定";
+"bookshelf"="本棚";
+//==============================
+//user_menu
+"no_users"="ユーザーがいません";
+"follow_users"="フォローユーザー";
+"illusts_of_[user_name]"="イラスト";
+"bookmark_by_[user_name]"="ブックマーク";
+"novels_of_[user_name]"="小説";
+"details_of_[user_name]"="詳細";
+"birth_format"="yyyy'年'mm'月'dd'日生まれ'";
+"age_[age]"="$0歳";
+//==============================
+//album
+"album"="アルバム";
+"add_to_album"="アルバムに追加";
+"create_new_album"="新規アルバム";
+"album_name"="アルバム名";
+"enter_album_name"="アルバム名を入力";
+"added_to_[album_title]"="$0に追加しました。";
+"delete_alubm"="アルバムを削除";
+"change_album_name"="アルバム名を変更";
+"slide_duration"="スライドの時間";
+"change_slide_duration"="スライドの時間を変更";
+"enter_duration"="時間を入力";
+"duration_was_setted_to_[second]"="$0秒に設定しました。";
+"enter_album_name"="アルバム名を入力してください";
+"purchase_album?"="アルバム機能を購入？";
+"purchase_album"="アルバム機能を購入";
+"album_description"="アルバム機能を使えば作品を分類して保存できます。";
+"purchase"="購入";
+"purchase_was_succeeded"="購入処理が正常にに成功しました。";
+"purchase_was_failed"="購入処理が失敗しました。";
+"restore_was_succeeded"="復元処理が正常にに成功しました。";
+"restore_was_failed"="復元できませんでした。";
+//==============================
+//ranking
+"select_ranking_search_type"="条件を選択";
+"ranking_daily"="デイリー";
+"ranking_weekly"="ウィークリー";
+"ranking_monthly"="マンスリー";
+"ranking_for_man"="男子向け";
+"ranking_for_woman"="女子向け";
+"ranking_original"="オリジナル";
+"ranking_rookie"="ルーキー";
+"ranking_old"="過去";
+"ranking_r18_daily"="R-18デイリー";
+"ranking_r18_weekly"="R18ウィークリー";
+"ranking_r18_for_man"="R18男性向け";
+"ranking_r18_for_woman"="R18女性向け";
+"ranking_of_[type]"="$0の人気";
+//============================================================
+//setting
+"setting"="設定";
+//==============================
+//general
+"general_setting"="一般設定";
+"security"="セキュリティ";
+"enable_passcode"="パスコードをオン";
+"system"="シムテム";
+"remove_cache"="キャッシュを削除";
+"removing"="削除しています...";
+"enable_vibration"="感覚フィードバック有効";
+"enable_auto_sleep"="自動スリープ有効";
+"support"="サポート";
+"information"="情報";
+"contact_us"="お問い合わせ";
+"premium"="プレミアム";
+"restore"="復元";
+//==============================
+//pixiv
+"dont_show_r18"="R-18作品を表示しない";
+"dont_show_r18_on_cellular"="モバイル通信時R-18非表示";
+"block_tag"="指定のタグをブロック";
+"block_user"="指定のユーザーをブロック";
+"pixiv_account_setting"="Pixivアカウント設定";
+"resister_pixiv_premium"="Pixivプレミアムに登録";
+"hidden_tags"="非表示タグ";
+"you_can_not_add_blank_tag"="空白のタグ名は追加できません。";
+"this_tag_has_been_added_already"="既に登録されています。";
+"contain_tag_name"="タグ名に含む";
+"tag_contains_[name]"="を含むタグ";
+"hidden_user"="非表示ユーザー";
+"user_name"="ユーザー名";
+//==============================
+//novel
+"mincho"="明朝体";
+"gothic"="ゴシック";
+"white_theme"="白";
+"worm_theme"="暖";
+"gray_theme"="灰";
+"black_theme"="黒";
+//==============================
+//account
+"account"="アカウント";
+"account_setting"="アカウント設定";
+"user_setting"="ユーザー設定";
+"change_account"="アカウントを切り替える";
+"change_mail_address"="メールアドレスを変更";
+"change_password"="パスワードを変更";
+"make_this_account_default"="デフォルトにする。";
+"remove_this_account"="アカウントを削除";
+"mail"="メール";
+"password"="パスワード";
+"account_remove_alert"="このアカウントを削除してもよろしいですか？";
+"default_account_description"="このアカウントをデフォルトアカウントに設定しますか？\nProcyon起動時に自動的にログインされます。";
+"no_account"="アカウントがありません。";
+//============================================================
+//other
+"mail_or_password_error"="メールアドレスまたはパスワードが違います。";
+"unknown_error"="不明なエラー";
+"dic_no_page_error"="このタイトルの記事はまだ作成されていません。";
+"logging_in"="ログイン中です。";
+"guide_line"="利用規約";
+"agree"="同意する";
+"disagree"="同意しない";
+"enter_pixiv_id"="PixivIDを入力";
+"enter_password"="パスワードを入力";
+"register_to_pixiv_premium?"="Pixivのプレミアムに登録?";
+"pixiv_premium_discription"="Pixivのプレミアムに登録しますか？\n人気順検索が完全に解放されます。";
+"register"="登録";
+
+"downloading_[item_name]"="$0をダウンロード中";
+"saveing_[item_name]"="$0を保存中";
+"[item_name]_will_be_save_next"="$0は次に保存されます。";
+"converting_to_pdf"="PDFに変換中...";
+
+
+//=================================================================
+//追加
+"edit_account" = "アカウントを編集";
+"add_account" = "アカウントを追加";
+"login_with_created_account" = "既存のアカウントでログイン";
+"create_new_account" = "新規アカウントを作成";
+
+"nickname" = "ニックネーム";
+"enter_nickname" = "ニックネームを入力";
+
+"creating_account" = "アカウントを作成中...";
+"account_[name]_created" = "アカウント　$0　が作成されました。";
+
+
+"no_connection" = "ネットワークがありません";
+
+"illust"="イラスト";
+"novel"="小説";
+"private_illust"="非公開イラスト";
+"private_novel"="非公開小説";
+
+"please_share_procyon" = "共有をお願いします！";
+"share_procyon_description" = "Procyonを多くの人に使ってもらいたいので、共有をよろしくお願いします。\n\n\n\nProcyonについてツイートがあった日のダウンロード数が200近く増えていたのでこんなことしてみました。\nユーザー増えるといいな。";
+"share_procyon_text" = "Pixivビューアーアプリ「Procyon」を使っています。https://appsto.re/jp/2wvNdb.i";
+
+"never_show_again" = "再度表示しない";
+
+"tag_bookmarked" = "タグブックマークしました。";
+
+"bookmark_this" = "ブックマーク";
+"private_bookmark_this" = "非公開";
+"add_tag" = "タグを追加";
+"tag" = "タグ";
+"tag_cannot_be_blank" = "タグを入力してください。";
+
+"login_error" = "ログインエラー";
+
+"edit"="編集";
+"add"="追加";
+"remove"="削除";
+"and_contains"="を含む";
+"enter_hide_tag"="非表示タグを入力";
+"nothing_is_selected"="何も選択されていません。";
+
+"enter_user_id"="ユーザーのIDを入力";
+
+"make_this_user_hide?" = "ユーザーを非表示？";
+"make_this_user_block" = "ユーザーを非表示";
+
+"opne_url"="URLを開く";
+"enter_url"="URLを入力";
+
+"my_follower"="フォロワー";
+"use_light_mode"="軽量化モードを使用する";
+//=================================================================
+//First
+"welcome_to_procyon" = "ようこそProcyonへ";
+"these_accounts_are_converted" = "これらのアカウントは引き継がれます。";
+"login" = "ログイン";
+"nickname_cannot_be_blank" = "ニックネームを入力してください。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
